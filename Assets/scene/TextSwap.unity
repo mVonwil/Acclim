@@ -214,7 +214,10 @@ MonoBehaviour:
   - this is the second english. paragraph that will soon be translated
   - this is the final set of words that will be sent into. the machine
   uniqueTerms: []
+  gibTerms: []
+  Translated: 0000000000000000000000000000000000000000000000000000
   gibberishText: []
+  gibberish: 
 --- !u!4 &204374302
 Transform:
   m_ObjectHideFlags: 0
