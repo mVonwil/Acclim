@@ -51,10 +51,7 @@ public class GibberishManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-
-
-
+		AttemptLearning ();
 	}
 
 	void GenerateText(){
@@ -67,12 +64,19 @@ public class GibberishManager : MonoBehaviour {
 				int wordLocation = uniqueTerms.IndexOf (word);
 				string wordSwap = gibTerms [wordLocation];
 				if (Translated [wordLocation] == false)
-					gibText += " " + wordSwap;
+					gibText += " <color=#FF0000FF>" + wordSwap + "</color>";
 				else
-					gibText += " " + word;
+					gibText += " <color=#008000FF>" + word + "</color>";
 				gibberish = gibText;
 			}
 			gibberishText.Add(gibberish);
+		}
+	}
+
+	void AttemptLearning(){
+		if (Input.GetKeyDown (KeyCode.R)) {
+			gibberishText.Clear();
+			GenerateText ();
 		}
 	}
 }
