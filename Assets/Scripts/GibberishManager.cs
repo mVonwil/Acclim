@@ -52,6 +52,7 @@ public class GibberishManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		AttemptLearning ();
+		RefreshText ();
 	}
 
 	void GenerateText(){
@@ -75,8 +76,22 @@ public class GibberishManager : MonoBehaviour {
 
 	void AttemptLearning(){
 		if (Input.GetKeyDown (KeyCode.R)) {
-			gibberishText.Clear();
+			gibberishText.Clear ();
 			GenerateText ();
 		}
+	}
+
+	void RefreshText(){
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			RandomTranslate ();
+		}
+	}
+
+		void RandomTranslate(){
+			int boolClick = Random.Range (0, Translated.Count);
+			if (Translated [boolClick] == true)
+				RandomTranslate ();
+			else
+				Translated [boolClick] = true;	
 	}
 }
