@@ -8,6 +8,7 @@ public class GibberishManager : MonoBehaviour {
 	public List<string> englishText;
 	public List<string> uniqueTerms;
 	public List<string> gibTerms;
+	public List<string> autoGibTerms;
 	public List<bool> Translated;
 	public List<string> gibberishText;
 
@@ -32,17 +33,17 @@ public class GibberishManager : MonoBehaviour {
 			}
 		}
 			
-		for (int i = 0; i < 26; i++) {
+		for (int i = 0; i < uniqueTerms.Count; i++) {
 			//generate gibberish string - auto translate (letter replacer)
 			string tempWord = tempGib [i];
 			string transWord = tempWord.Replace ("a", "s").Replace ("q", "w").Replace ("z", "x").Replace ("c", "v").Replace ("d", "f").Replace ("e", "r").Replace ("t", "y").Replace ("g", "h").Replace ("b", "n").Replace ("m", "j").Replace ("u", "i").Replace ("k", "l").Replace ("o", "p");
 			tempGib.Add (transWord);
 		}
 
-		for (int i = 0; i < 26; i++)
+		for (int i = 0; i < uniqueTerms.Count; i++)
 			tempGib.Remove (tempGib [0]);
 
-		gibTerms = tempGib;
+		autoGibTerms = tempGib;
 		//Create a list of strings. This list will contain all the words that have been translated. All other words will stay in gibberish
 
 		GenerateText ();
@@ -63,7 +64,7 @@ public class GibberishManager : MonoBehaviour {
 			string[] engWords = transText.Split (' ');
 			foreach (string word in engWords) {
 				int wordLocation = uniqueTerms.IndexOf (word);
-				string wordSwap = gibTerms [wordLocation];
+				string wordSwap = autoGibTerms [wordLocation];
 				if (Translated [wordLocation] == false)
 					gibText += " <color=#FF0000FF>" + wordSwap + "</color>";
 				else
