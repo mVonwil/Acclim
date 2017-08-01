@@ -23,8 +23,8 @@ public class GibberishManager : MonoBehaviour {
 			tempEng.Add (msg);
 
 		foreach (string msg in tempEng) {
-			string tempMsg = msg.Replace (".", ""); //Add a .Replace for each punctuation used
-			string[] words = tempMsg.Split (' '); //Use String.Split to seperate the words and put them in an array
+			//string tempMsg = msg.Replace (".", ""); //Add a .Replace for each punctuation used
+			string[] words = msg.Split (' '); //Use String.Split to seperate the words and put them in an array
 			foreach (string word in words) { //For each word in each array, check for duplicates
 				if (!uniqueTerms.Contains (word)) { //If word is unique, add to list
 					uniqueTerms.Add (word); //bluffle - bluffel
@@ -45,8 +45,10 @@ public class GibberishManager : MonoBehaviour {
 
 		autoGibTerms = tempGib;
 		//Create a list of strings. This list will contain all the words that have been translated. All other words will stay in gibberish
-
+		uniqueTerms.Sort();
 		GenerateText ();
+
+
 
 	}
 	
