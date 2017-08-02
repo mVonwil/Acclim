@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class LetterOne : MonoBehaviour {
 
 	GibberishManager gibMan;
+	ObjectInteract objInt;
+	public Transform empty;
 	public Text text1;
 	public Text text2;
 	public Text text3;
@@ -20,11 +22,13 @@ public class LetterOne : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		gibMan = GameObject.FindGameObjectWithTag ("GibberishManager").GetComponent<GibberishManager> ();
+		objInt = this.gameObject.GetComponentInChildren<ObjectInteract> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		UpdateText ();
+		MoveToStorage ();
 	}
 
 	void UpdateText(){
@@ -37,5 +41,14 @@ public class LetterOne : MonoBehaviour {
 		text7.text = gibMan.gibberishText [6];
 		text8.text = gibMan.gibberishText [7];
 		text9.text = gibMan.gibberishText [178];
+	}
+
+	void MoveToStorage(){
+		bool interCheck = objInt.anim.GetBool ("Interact");
+		if (interCheck == true) {
+			transform.position = empty.position;
+			transform.rotation = empty.rotation;
+		} else
+			return;
 	}
 }

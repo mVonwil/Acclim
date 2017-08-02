@@ -39,12 +39,11 @@ public class ObjectInteract : MonoBehaviour {
 	}
 
 	void RunInteract(){
-		if (isTargeted == true && Input.GetMouseButton (0) && anim.GetBool ("Interact") == false) {
+		if (isTargeted == true && Input.GetMouseButtonDown (0) && anim.GetBool ("Interact") == false) {
 			anim.SetBool ("Interact", true);
 			stopColor = true;
-		} else if (isTargeted == true && Input.GetMouseButton (0) && anim.GetBool ("Interact") == true) {
-			anim.SetBool ("Interact", true);
-
+		} else if (isTargeted == true && Input.GetMouseButtonDown(0) && anim.GetBool ("Interact") == true) {
+			anim.SetBool ("Interact", false);
 		} else
 			return;
 	}
