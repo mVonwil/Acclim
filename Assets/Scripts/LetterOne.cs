@@ -14,7 +14,7 @@ public class LetterOne : MonoBehaviour {
 	public Text text6;
 	public Text text7;
 	public Text text8;
-	public Text text9;
+	//public Text text9;
 
 
 	// Use this for initialization
@@ -36,6 +36,6 @@ public class LetterOne : MonoBehaviour {
 		text6.text = gibMan.gibberishText [5];
 		text7.text = gibMan.gibberishText [6];
 		text8.text = gibMan.gibberishText [7];
-		text9.text = gibMan.gibberishText [8];
+		//text9.text = gibMan.gibberishText [8];
 	}
 }
