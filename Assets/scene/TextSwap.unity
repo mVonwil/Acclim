@@ -213,7 +213,7 @@ MonoBehaviour:
   - Sagittarius National Company Inc.
   - TELEGRAM
   - Use this form for all telegrams or radiograms
-  - 'Orig: Brisk Technologies           Sent: 9 Aug 1945'
+  - 'Orig: Brisk Technologies'
   - THIS IS AN AUTOMATED REMINDER, PLEASE DO NOT REPLY TO THIS TELEGRAM
   - 'You are expected at Brisk Technologies Headquarters at 0845am for work orientation
     on 14th August (Monday). '
@@ -591,7 +591,8 @@ MonoBehaviour:
   - Enough about her, just know your mom and dad are proud of you for going out there
     and chasing your dream. Do not forget to look after yourself!
   - 'Love, Mom & Dad '
-  - 
+  - 'Sent: 9 Aug 1945'
+  - Sec. Louis Warbulton
   uniqueTerms: []
   gibTerms:
   - 

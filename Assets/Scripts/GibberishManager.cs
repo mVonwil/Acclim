@@ -32,6 +32,9 @@ public class GibberishManager : MonoBehaviour {
 				}
 			}
 		}
+
+		uniqueTerms.Sort();
+		tempGib.Sort ();
 			
 		for (int i = 0; i < uniqueTerms.Count; i++) {
 			//generate gibberish string - auto translate (letter replacer)
@@ -45,7 +48,7 @@ public class GibberishManager : MonoBehaviour {
 
 		autoGibTerms = tempGib;
 		//Create a list of strings. This list will contain all the words that have been translated. All other words will stay in gibberish
-		uniqueTerms.Sort();
+
 		GenerateText ();
 
 
@@ -62,8 +65,8 @@ public class GibberishManager : MonoBehaviour {
 		for (int a = 0; a < englishText.Count; a++){
 			string engText = englishText[a];
 			string gibText = "";
-			string transText = engText.Replace (".", "");
-			string[] engWords = transText.Split (' ');
+			//string transText = engText.Replace (".", "");
+			string[] engWords = engText.Split (' ');
 			foreach (string word in engWords) {
 				int wordLocation = uniqueTerms.IndexOf (word);
 				string wordSwap = autoGibTerms [wordLocation];
@@ -92,9 +95,10 @@ public class GibberishManager : MonoBehaviour {
 
 		void RandomTranslate(){
 			int boolClick = Random.Range (0, Translated.Count);
-			if (Translated [boolClick] == true)
+			if (Translated [boolClick] == true) {
 				RandomTranslate ();
-			else
+			return;
+			} else
 				Translated [boolClick] = true;	
 	}
 }

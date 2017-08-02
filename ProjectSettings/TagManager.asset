@@ -6,6 +6,8 @@ TagManager:
   tags:
   - EngText
   - GibberishManager
+  - Interact
+  - Child of Interact
   layers:
   - Default
   - TransparentFX
