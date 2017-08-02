@@ -6,6 +6,7 @@ public class InteractManager : MonoBehaviour {
 
 	public Transform playerCam;
 	public RaycastHit rayHit;
+	public GameObject obj;
 
 	// Use this for initialization
 	void Start () {
@@ -20,10 +21,12 @@ public class InteractManager : MonoBehaviour {
 		Ray interactRay = new Ray(transform.position, (playerCam.forward * 10));
 		Debug.DrawRay (transform.position, (playerCam.forward * 10));
 		if (Physics.Raycast (interactRay, out rayHit)) {
-			if (rayHit.distance < 10 && rayHit.transform.gameObject.tag == "Interact") {
-				rayHit.transform.gameObject.GetComponent<ObjectInteract> ().isTargeted = true;
+			if (rayHit.distance < 5 && rayHit.transform.gameObject.GetComponent<ObjectInteract>() == true) {
+				obj = rayHit.transform.gameObject;
+				obj.GetComponent<ObjectInteract> ().isTargeted = true;
 			} else
 				return;
-		}
+		} else
+			return;
 	}		
 }

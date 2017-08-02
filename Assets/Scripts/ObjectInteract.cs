@@ -20,9 +20,11 @@ public class ObjectInteract : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		ChangeColor ();
-		RunInteract ();
-		if (intMan.rayHit.transform.gameObject != this.gameObject)
-			isTargeted = false;
+		//RunInteract ();
+		if (intMan.obj == this.gameObject)
+			isTargeted = true;
+		else
+			isTargeted = false;;
 	}
 
 	public void ChangeColor(){
@@ -33,13 +35,11 @@ public class ObjectInteract : MonoBehaviour {
 	}
 
 	void RunInteract(){
-		if (isTargeted == true && Input.GetMouseButton (0) && anim.GetBool ("isOpen") == false) {
-			anim.SetBool ("isOpen", true);
-			break;
-		}
-		else if (isTargeted == true && Input.GetMouseButton (0) && anim.GetBool ("isOpen") == true) {
-			anim.SetBool ("isOpen", true);
-			break:
-		}
+		if (isTargeted == true && Input.GetMouseButton (0) && anim.GetBool ("Interact") == false) {
+			anim.SetBool ("Interact", true);
+		} else if (isTargeted == true && Input.GetMouseButton (0) && anim.GetBool ("Interact") == true) {
+			anim.SetBool ("Interact", true);
+		} else
+			return;
 	}
 }
