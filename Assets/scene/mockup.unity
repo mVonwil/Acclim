@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -4557,6 +4557,7 @@ MonoBehaviour:
   obj: {fileID: 852896005}
   isTargeted: 0
   originalColor: {r: 0, g: 0, b: 0, a: 0}
+  stopColor: 0
 --- !u!23 &852896008
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5121,6 +5122,7 @@ MonoBehaviour:
   obj: {fileID: 954609072}
   isTargeted: 0
   originalColor: {r: 0, g: 0, b: 0, a: 0}
+  stopColor: 0
 --- !u!1 &975980587
 GameObject:
   m_ObjectHideFlags: 0
@@ -6812,6 +6814,7 @@ MonoBehaviour:
   obj: {fileID: 1333747116}
   isTargeted: 0
   originalColor: {r: 0, g: 0, b: 0, a: 0}
+  stopColor: 0
 --- !u!1 &1339717449
 GameObject:
   m_ObjectHideFlags: 0
@@ -8274,13 +8277,14 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 25
+  - 3
+  - 3. Employment
+  - 4
+  - 4. Compensation/Benefits.
+  - 60,000
+  - 7:55AM
+  - 73820
   - 
   - 
   - 
@@ -12697,6 +12701,7 @@ MonoBehaviour:
   obj: {fileID: 2057953321}
   isTargeted: 0
   originalColor: {r: 0, g: 0, b: 0, a: 0}
+  stopColor: 0
 --- !u!1 &2066695357
 GameObject:
   m_ObjectHideFlags: 0
