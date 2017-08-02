@@ -94,11 +94,13 @@ public class GibberishManager : MonoBehaviour {
 	}
 
 		void RandomTranslate(){
+		for (int b = 0; b < 50; b++) {
 			int boolClick = Random.Range (0, Translated.Count);
 			if (Translated [boolClick] == true) {
 				RandomTranslate ();
-			return;
+				return;
 			} else
-				Translated [boolClick] = true;	
+				Translated [boolClick] = true;
+		}
 	}
 }
