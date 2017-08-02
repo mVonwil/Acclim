@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class LetterTwo : MonoBehaviour
 {
-
+	
     GibberishManager gibMan;
+	ObjectInteract objInt;
+	public Transform empty;
     public Text text1;
     public Text text2;
     public Text text3;

@@ -45,7 +45,9 @@ public class LetterOne : MonoBehaviour {
 
 	void MoveToStorage(){
 		bool interCheck = objInt.anim.GetBool ("Interact");
-		if (interCheck == true) {
+		if (interCheck == true && Input.GetMouseButtonDown(0) && objInt.isTargeted == true) {
+			Debug.Log ("Moving");
+			GetComponent<Animator> ().enabled = false;
 			transform.position = empty.position;
 			transform.rotation = empty.rotation;
 		} else
