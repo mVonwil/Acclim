@@ -2330,7 +2330,7 @@ GameObject:
   - component: {fileID: 482342135}
   - component: {fileID: 482342134}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Light Switch
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3333,7 +3333,7 @@ GameObject:
   - component: {fileID: 569722096}
   m_Layer: 0
   m_Name: Freezer Door
-  m_TagString: Interact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4375,6 +4375,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114930290360810994, guid: 3ebc52171d9be5843a048a07aee435cc,
+        type: 2}
+      propertyPath: onScreen
+      value: 
+      objectReference: {fileID: 1696070111}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3ebc52171d9be5843a048a07aee435cc, type: 2}
   m_IsPrefabParent: 0
@@ -4521,7 +4526,7 @@ GameObject:
   - component: {fileID: 852896008}
   - component: {fileID: 852896007}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Receiver
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4557,6 +4562,7 @@ MonoBehaviour:
   obj: {fileID: 852896005}
   isTargeted: 0
   originalColor: {r: 0, g: 0, b: 0, a: 0}
+  stopColor: 0
 --- !u!23 &852896008
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4983,7 +4989,7 @@ GameObject:
   - component: {fileID: 945876656}
   - component: {fileID: 945876655}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Door Knob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5121,6 +5127,7 @@ MonoBehaviour:
   obj: {fileID: 954609072}
   isTargeted: 0
   originalColor: {r: 0, g: 0, b: 0, a: 0}
+  stopColor: 0
 --- !u!1 &975980587
 GameObject:
   m_ObjectHideFlags: 0
@@ -5728,7 +5735,7 @@ GameObject:
   - component: {fileID: 1091449348}
   - component: {fileID: 1091449347}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wardrobe
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5886,6 +5893,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1392371030}
+  - {fileID: 1696070110}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5913,7 +5921,7 @@ GameObject:
   - component: {fileID: 1151771620}
   m_Layer: 0
   m_Name: Fridge Door
-  m_TagString: Interact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6727,7 +6735,7 @@ GameObject:
   - component: {fileID: 1333747118}
   - component: {fileID: 1333747121}
   m_Layer: 0
-  m_Name: Cube (14)
+  m_Name: Drawer
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6812,6 +6820,7 @@ MonoBehaviour:
   obj: {fileID: 1333747116}
   isTargeted: 0
   originalColor: {r: 0, g: 0, b: 0, a: 0}
+  stopColor: 0
 --- !u!1 &1339717449
 GameObject:
   m_ObjectHideFlags: 0
@@ -9571,7 +9580,7 @@ GameObject:
   - component: {fileID: 1638954626}
   - component: {fileID: 1638954625}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wardrobe
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9732,6 +9741,80 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1808430136}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1 &1696070109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1696070110}
+  - component: {fileID: 1696070112}
+  - component: {fileID: 1696070111}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1696070110
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1696070109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1093303774}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -226.20001}
+  m_SizeDelta: {x: 1000, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1696070111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1696070109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 60
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1696070112
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1696070109}
 --- !u!1 &1709610353
 GameObject:
   m_ObjectHideFlags: 0
@@ -11266,6 +11349,10 @@ Prefab:
       propertyPath: m_TagString
       value: Interact
       objectReference: {fileID: 0}
+    - target: {fileID: 1569847008136862, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
+      propertyPath: m_Name
+      value: Letter
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114432206143241730, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
@@ -11364,7 +11451,7 @@ GameObject:
   - component: {fileID: 1871675401}
   - component: {fileID: 1871675400}
   m_Layer: 0
-  m_Name: Cube (15)
+  m_Name: Freezer
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11991,6 +12078,10 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: -1.9200001
       objectReference: {fileID: 0}
+    - target: {fileID: 1188965189860538, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
+      propertyPath: m_Name
+      value: Letter
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
   m_IsPrefabParent: 0
@@ -12171,7 +12262,7 @@ GameObject:
   - component: {fileID: 2014496961}
   - component: {fileID: 2014496960}
   m_Layer: 0
-  m_Name: Cube (15)
+  m_Name: Fridge
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12612,7 +12703,7 @@ GameObject:
   - component: {fileID: 2057953323}
   - component: {fileID: 2057953326}
   m_Layer: 0
-  m_Name: Cube (14)
+  m_Name: Drawer
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12697,6 +12788,7 @@ MonoBehaviour:
   obj: {fileID: 2057953321}
   isTargeted: 0
   originalColor: {r: 0, g: 0, b: 0, a: 0}
+  stopColor: 0
 --- !u!1 &2066695357
 GameObject:
   m_ObjectHideFlags: 0
