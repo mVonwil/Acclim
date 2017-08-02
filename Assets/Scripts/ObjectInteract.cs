@@ -6,6 +6,7 @@ public class ObjectInteract : MonoBehaviour {
 
 	InteractManager intMan;
 
+	public Animator anim;
 	public GameObject obj;
 	public bool isTargeted;
 	public Color originalColor;
@@ -19,6 +20,7 @@ public class ObjectInteract : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		ChangeColor ();
+		RunInteract ();
 		if (intMan.rayHit.transform.gameObject != this.gameObject)
 			isTargeted = false;
 	}
@@ -28,5 +30,16 @@ public class ObjectInteract : MonoBehaviour {
 			obj.GetComponent<Renderer> ().material.color = Color.green;
 		else
 			obj.GetComponent<Renderer> ().material.color = originalColor;
+	}
+
+	void RunInteract(){
+		if (isTargeted == true && Input.GetMouseButton (0) && anim.GetBool ("isOpen") == false) {
+			anim.SetBool ("isOpen", true);
+			break;
+		}
+		else if (isTargeted == true && Input.GetMouseButton (0) && anim.GetBool ("isOpen") == true) {
+			anim.SetBool ("isOpen", true);
+			break:
+		}
 	}
 }

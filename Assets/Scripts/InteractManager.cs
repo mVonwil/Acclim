@@ -20,7 +20,7 @@ public class InteractManager : MonoBehaviour {
 		Ray interactRay = new Ray(transform.position, (playerCam.forward * 10));
 		Debug.DrawRay (transform.position, (playerCam.forward * 10));
 		if (Physics.Raycast (interactRay, out rayHit)) {
-			if (rayHit.distance < 10) {
+			if (rayHit.distance < 10 && rayHit.transform.gameObject.tag == "Interact") {
 				rayHit.transform.gameObject.GetComponent<ObjectInteract> ().isTargeted = true;
 			} else
 				return;
