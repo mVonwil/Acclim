@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -863,8 +863,9 @@ Transform:
   - {fileID: 1758826851}
   - {fileID: 1948897426}
   - {fileID: 770748026}
+  - {fileID: 1954622994}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &152842845
 GameObject:
@@ -5842,7 +5843,7 @@ RectTransform:
   m_Children:
   - {fileID: 1392371030}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7913,7 +7914,359 @@ MonoBehaviour:
     on 14th August (Monday). Failure to show up will result in possible termination
     of your employee contract.
   - Please ensure you have completed the employee contract prior to your arrival.
-  - Sec. Louis Warbulton
+  - 09.08.1945
+  - Harriet Danvers
+  - '18 Alderdenn Street Candrift Apartments #12-10 '
+  - SW 987324
+  - Dear Ms. Danvers
+  - 'Following our most recent discussion, I am delighted to offer you the position
+    of Automaton Artificer with Brisk Technologies. Brisk Technologies is a company
+    that strives to deliver the best of technology to the people. If you choose to
+    accept and join Brisk Technologies, you will a part of a dedicated and fast-paced
+    team that works together to provide clients with the highest possible level of
+    service. '
+  - 'As a member of Brisk Technologies, we ask for your commitment to deliver impeccable
+    quality and results that exceed client expectations. In addition, we expect your
+    actions and any results you provide reflect you as a representative of Brisk Technologies.
+    In return, we are committed to providing you an opportunity to grow and learn
+    to the highest level of your ability and potential, as well as stretching your
+    aspirations to new horizons. '
+  - 'I am confident you will find this to be an exciting and challenging new opportunity.
+    The following points underneath outline the terms and conditions we discussed
+    in our last meeting. '
+  - 'Title: Automaton Artificer Job description: see attached form Start date: 14th
+    August 1945 Salary:  60,000 $ per year '
+  - 'If you find any of these terms disagreeable, please let me know immediately so
+    we may work something out before you officially start on Monday. Otherwise barring
+    any problems, please reply ASAP with your confirmation so I may forward you a
+    letter of offer and employment contract. '
+  - 'Sincerely, Marvin Leynthall p.p Louis Warbulton Secretary   '
+  - OFFER OF EMPLOYMENT AND EMPLOYMENT CONTRACT
+  - 'Employee Name: Harriet Danvers                        Date: 9th August 1945'
+  - 'Address: Candrift Apartments #12-10, 18 Alderdenn Street, SW 987324'
+  - Dear Harriet Danvers,
+  - We are pleased to offer you a position with Brisk Technologies (Company).
+  - 'Your start date, manager, compensation, benefits and other terms of employment
+    will be set forth below. '
+  - Terms of Employment
+  - "1.\tPosition and Duties. Company shall employ you, and you agree to competently
+    and professionally perform such duties as are customarily to the responsibility
+    of the position as set forth in the job description and reasonably assigned to
+    you from time to time by your Manager."
+  - "2.\tOutside Business Activities. During your employment with Brisk Technologies,
+    you shall devote energies, interests and abilities to the performance of your
+    duties under this Agreement. During the term of this Agreement, you shall not,
+    without Company\u2019s prior written consent render any services to others for
+    compensation or engage/participate actively or passively in any other business
+    activities that would interfere with the performance of your duties or compete
+    with Company business."
+  - "3.\tEmployment Classification. You shall be a Full-Time Employee and shall not
+    be entitled to benefits except ones specifically outline herein."
+  - "4.\tCompensation/Benefits."
+  - "a.\tWage. Company shall pay you the wage set forth in job description attached"
+  - "b.\tReimbursement of Expenses. You shall be reimbursed for all reasonable and
+    necessary expenses paid or incurred by you in performance of your duties. You
+    must provide the Company with the original receipts for such expenses"
+  - "c.\tWithholdings. All compensation paid to you under this Agreement, including
+    payment of salary and taxable benefits, shall be subject to withholdings as may
+    be required by law or Company\u2019s general practices. d.\tBenefits. You will
+    receive t"
+  - "d.\tBenefits. You will receive the Company\u2019s standard employee benefits
+    package (including health insurance) and be subject to the Company\u2019s vacation
+    policy as such package and policy are in effect from time to time."
+  - "e.\tAt-Will Employment. Either party may terminate this Agreement by written
+    notice at any time or for no reason. This Agreement is intended to be and shall
+    be deemed as legally binding."
+  - Sagittarius National Company Inc. TELEGRAM
+  - Use this form for all telegrams or radiograms
+  - 'Sent: 10 Aug 1945 Orig: Sagittarius National Company Inc. '
+  - -THIS IS AN AUTOMATED REMINDER, PLEASE DO NOT REPLY TO THIS TELEGRAM-
+  - 'Reminder #1: You are expected at Brisk Technologies HQ on the 14th of August,
+    Monday at 8:45am for work orientation. Please ensure you have completed the employee
+    contract prior to your arrival.  '
+  - 'Reminder #2: Your apartment rental fees are due in 3 weeks at the sum of: $1,185.'
+  - 'Auto messaging bot #3927                                        9:00 AM'
+  - 'Sagittarius National Company Inc. TELEGRAM '
+  - 'Sent: 14 Aug 1945 Orig: Sagittarius National Company Inc. '
+  - 'Reminder #1: You have a work meeting today at 11:30AM. Reminder #2: Your rent
+    is due in 3 weeks at the sum of: $1,185. '
+  - 'Auto messaging bot #1823                                        9:00AM'
+  - '25 Calvary Lane Equine, HR 73820   '
+  - August 12th 1945
+  - Hello dear!
+  - 'I hope you are settling alright in your new home and workplace! While I am not
+    happy about you moving so far away, I understand your decision. Your father and
+    I are enjoying the break from the heat, especially after the harsh summer we experienced
+    back home. We were considering going on a short holiday trip this month, visit
+    the family up north. '
+  - "That reminds me, the strangest thing happened today. While out in the garden
+    earlier this morning, a few of our neighbors approached me. They kept asking me
+    where you were since they have not seen you around for a few days now. Honestly,
+    you think they would know that you have been gone for over a week now. When I
+    told them you have moved for work over a week ago, they were shocked. Genuinely
+    shocked! Whether they were more shocked that you got the job or actually moved
+    for it is anyone\u2019s guess. The nerve of some people!"
+  - 'Will you be coming home for Christmas? I know there is about 4 months to go,
+    but it would be lovely if you could come over and visit during the winter holidays.
+    If you are coming home for Christmas, please let me know and I will make sure
+    to cook your favorites for Christmas dinner! '
+  - We love and miss you honey! Do not forget to write back soon! I want to hear everything
+    you been up too! Hopefully this letter will not take too long to reach you!
+  - 'Love, Mom & Dad '
+  - 'Vera Fowler 18 Alderdenn Street Candrift Apartments #12-04 SW 987324 '
+  - 14th August 1945
+  - 'Harriet Danvers 18 Alderdenn Street Candrift Apartments #12-10 SW 987324  '
+  - Hello neighbor!
+  - I am sending this letter to you to introduce myself, and to welcome you to the
+    community. My name is Vera Fowler and I live a few doors down the hallway from
+    you. I work as a pharmacist over at Millvale Hospital.
+  - "Like you, I moved here far away from my hometown so I know what it is like being
+    all alone in a strange new place. Luckily our community is centered on the concept
+    of family, so that means when you moved into the complex, you gained a new family!
+    Our community has a different event for each day of the week which helps newcomers\u2019
+    acclimatize to their new home and make some new friends. So do not be afraid to
+    come join on some of the events and mingle with other residents. Every Monday
+    is game\u2019s night, so do not be afraid to join in! We have a mix of games such
+    as: board games, cards, chess and more! "
+  - With that said, I hope to see you around and hearing from you. Please do not hesitate
+    to contact me if you need anything or have questions.
+  - "Best Regards, Vera Fowler\t "
+  - '25 Calvary Lane Equine, HR 73820  August 12th 1945 '
+  - Hello sweetheart,
+  - It makes me so happy to hear you are settling okay with no problems, and that
+    you had a great first day at your new job. It was awfully nice of your neighbor
+    to introduce herself. Do try to remember to go out and socialize sometimes. Although
+    you always did like tinkering with machines. I remember having to chase you out
+    of your room or the garage all the time, especially when you got caught up with
+    a new invention.
+  - "It has been barely two weeks and I am missing you dreadfully. Your father too!
+    Even if he will not admit it. The house is awfully quiet lately, without the clangs
+    and bangs from you making a new gadget. Although I feel I may have spoken too
+    soon as I seen your father looking over some blueprints lately, he may have caught
+    the tinkerer\u2019s bug from you. If he does begin tinkering, I will at least
+    know who to blame. Just kidding dear, you know I love you very much."
+  - 'Before I forget, the neighbor next door, his daughter keeps asking whether it
+    is true you are now living at SloeWaben now. I confirmed and she began asking
+    questions. I think she intends asking whether she can move in with you. I already
+    told her you live in a single apartment and cannot take a roommate in due to the
+    rental agreement. '
+  - Do you know how many weeks you will have off, for the Christmas break? Either
+    way, it will be good to have you back home for Christmas. December cannot come
+    fast enough.
+  - 'Love, Mom & Dad '
+  - 'Sagittarius National Company Inc. TELEGRAM '
+  - Use this form for all telegrams or radiograms
+  - 'Sent: 14 Aug 1945 Orig: Franklin Hill Complex '
+  - -THIS IS AN AUTOMATED MESSAGE, PLEASE DO NOT REPLY TO THIS TELEGRAM-
+  - 'Please be aware (insert dates, this or next week), there will be contractors
+    finishing work on the outside of the building. This may produce noise and dust
+    for a short period. Please close windows as a precaution and we apologize for
+    any disruptions this may cause. '
+  - Franklin Hill Complex Staff                                     7:55AM
+  - 'Sagittarius National Company Inc. TELEGRAM '
+  - Use this form for all telegrams or radiograms
+  - 'Sent: 14 Aug 1945 Orig: Sagittarius National Company Inc. '
+  - -THIS IS AN AUTOMATED REMINDER, PLEASE DO NOT REPLY TO THIS TELEGRAM-
+  - 'REMINDER: Your rent is due in 2 weeks at the sum of: $1,185.'
+  - 'Auto messaging bot #0243                                       09:00AM '
+  - 14th August 1945
+  - Hello Harriet!
+  - I hope I am not being too forward by using your first name. If it is, please let
+    me know or if you have a preference in how you would like to be addressed.
+  - 'Since you are new to the city, I thought I would write this letter to let you
+    know the different attractions or places you can visit, that only locals would
+    know about. '
+  - 'I heard you were interested in machinery and that your job involved tinkering
+    with automatons? There is the Historical Museum of Automatons which may interest
+    you, as the name suggests, it is a museum regarding the history of automatons
+    from the birth of automatons till present day. If I remember correctly, they had
+    some original blueprints along with machines invented by inventors such as Da
+    Vinci, Nikola Tesla and Lewis Pask. '
+  - 'There is the Anvil Reservoir Garden, a truly beautiful place. Very quiet and
+    serene, I am sure you will enjoy the beauty of nature. I have gone to the garden
+    many times myself, whether it is to just enjoy a walk or simply read a book. '
+  - If you need any research done, we have the famous National Library. The library
+    is world-class and boasts as a research center for people in various fields. I
+    visited the library numerous times for research or keep up-to-date on the latest
+    medical advances, as the medical field is ever-changing. It has a lovely collection
+    of fictional novels as well.
+  - On the entertainment side, SloeWaben has a circus permanently based here. It is
+    not far off from Alderdenn Street actually, about a thirty minute walk from here.
+    The shows are usually sold out, so it is best to book a ticket in advanced to
+    ensure you can get a seat. Perhaps we could watch one of the circus performances
+    together some time?
+  - I will close the letter here before my letter becomes several pages long. The
+    places I mentioned are a mix of local and popular attractions. My suggestion is
+    when you have the chance, to get out and explore the city. There is so much to
+    explore and experience!
+  - 'Best Regards, Vera  '
+  - 'Sagittarius National Company Inc. TELEGRAM '
+  - Use this form for all telegrams or radiograms
+  - ' Sent: 14 Aug 1945 Orig: Sagittarius National Company Inc. '
+  - -THIS IS AN AUTOMATED REMINDER, PLEASE DO NOT REPLY TO THIS TELEGRAM-
+  - 'REMINDER: Your rent is due in 2 weeks at the sum of: $1,185.'
+  - 'Auto messaging bot #6696                                      09:00AM '
+  - '09.08.1945 Harriet Danvers 18 Alderdenn Street Candrift Apartments #12-10 SW
+    987324 '
+  - Dear Ms. Danvers
+  - 'Congratulations on being elected as mechanical design engineer for Brisk Technologies
+    latest endeavor. Your role design and implement cost-effective equipment modifications
+    to improve safety and reliability. You will be working with fellow colleagues
+    on this project, together you will be developing, testing and evaluating those
+    designs. '
+  - "The project goal is to design an automaton to drill through dirt and rock for
+    subway tunnels, as part of our ongoing improvement on the city\u2019s transportation
+    infrastructure. "
+  - "With that said, please be aware that project\u2019s final blueprint for the automaton
+    is due in 13 days."
+  - I am looking forward to seeing your preliminary designs in the first project meeting
+    tomorrow morning.
+  - 'Sincerely, Marvin Leynthall p.p Louis Warbulton Secretary   '
+  - '25 Calvary Lane Equine, HR 73820  August 12th 1945 '
+  - Hello sweetie,
+  - 'You have no idea how happy makes me to hear that you have a month off for the
+    Christmas break. We will have plenty of time to catch up, you will have to tell
+    me everything! '
+  - 'I am sure you will get either job as the mechanical designer or as one of the
+    engineers for the new automaton. You are certainly qualified for either job, as
+    I remember you drawing your own blueprints for your inventions. Speaking of which,
+    you may have to explain how you built the irrigation system for the farm. Your
+    father and I been noticing the water flow has decreased over the last few days,
+    your father plans on dismantling it to see what is wrong with it. He believes
+    there is a blockage. However, he does not want to dismantle it yet till he knows
+    how it works. '
+  - 'Perhaps a letter to your father to explain it, or copy of the blueprint unless
+    your original blueprint is still in you room? '
+  - "Oh before I forget, your father seems to have caught the tinker\u2019s bug again.
+    He has been fiddling around in the garage more lately."
+  - 'Love, Mom & Dad '
+  - '25 Calvary Lane Equine, HR 73820  August 12th 1945 '
+  - Hi darling,
+  - So sorry to hear you been stressed out lately with the company project lately.  I
+    understand you are frustrated with the engineers, but you have to understand that,
+    while you may understand your design, they may not. Maybe if you built some small
+    working prototypes as a proof of concept will help the engineers understand?
+  - 'On the bright side, at least your design was approved! So that is something positive
+    at the very least honey. '
+  - "Your father will like to say that he is proud of you, and to \u2018keep your
+    head up\u2019. He said you will understand what he means. Remember honey, this
+    is just a small hurdle, a storm that will pass. Once it passes, you will be grateful
+    for the experience and lessons learnt. "
+  - 'Stick it out! Just remember if worse comes to worse, you can always come home. '
+  - 'Love, Mom & Dad '
+  - 'Sagittarius National Company Inc. TELEGRAM '
+  - 'Sent: 14 Aug 1945 Orig: Sagittarius National Company Inc. '
+  - -THIS IS AN AUTOMATED REMINDER, PLEASE DO NOT REPLY TO THIS TELEGRAM-
+  - 'REMINDER: Your rent is due in 1 weeks at the sum of: $1,185.  '
+  - 'Auto messaging bot #1768                                      09:00AM '
+  - 'Sagittarius National Company Inc. TELEGRAM '
+  - 'Sent: 14 Aug 1945 Orig: Litwack Circus  '
+  - -THIS IS AN AUTOMATED MESSAGE, PLEASE DO NOT REPLY TO THIS TELEGRAM-
+  - COME JOIN AND EXPERIENCE THE MAGIC THAT IS CARNIVAL NIGHT! HOSTED BY LITWACK CIRCUS,
+    ADMISSIONS ARE COMPLETELY FREE FOR ALL WHOM WISH TO ATTEND. FOR TWO NIGHTS ONLY!
+  - 'FEATURING ACTS FROM: VAR DE VAUE SOCIETY, LAGUNITAS AND MANY MORE!'
+  - SO COME ON DOWN TO MAREK ROAD TO WITNESS THE EXTRAGANZA THAT IS CARNIVAL NIGHT
+    AT LITWACK CIRCUS
+  - 'Litwack Circus                                       9:00AM '
+  - '09.08.1945 Harriet Danvers 18 Alderdenn Street Candrift Apartments #12-10 SW
+    987324 '
+  - Dear Ms. Danvers
+  - 'During the last project meeting, you and your colleagues presented several designs
+    for project Burrow. The meeting ended with one of your designs chosen as the chosen
+    final design for the new automaton that project Burrow will be using. '
+  - I was very impressed that the team presented a few small-scale working prototypes
+    as proof of concept. Others on the company board expressed their appreciation
+    for working models and the dedication shown.
+  - Furthermore, I am pleased with how the project is going and remaining on track
+    with the given deadline. I am looking forward to the final results. Keep up the
+    good work!
+  - 'Sincerely, Marvin Leynthall p.p Louis Warbulton Secretary   '
+  - 14th August 1945
+  - Hi again Harriet,
+  - I just wanted to check in on you. Forgive my forwardness, but these past few days,
+    I noticed you have not been going out much beyond for work. When I have seen you,
+    you looked rather pale and based on the dark eye bags I noticed, you have not
+    been sleeping well either. So I just wanted to make sure if everything was okay.
+  - 'If you are ill, you are more than welcome to see me. Even though I am a pharmacist,
+    I do have experiencing in diagnosing illness, or at least give you advice or prescribe
+    the medication you may need to take. Or if you just needed somebody to talk too,
+    you know where to find me!  '
+  - Get well soon!
+  - 'Regards, Vera  '
+  - '09.08.1945 Harriet Danvers 18 Alderdenn Street Candrift Apartments #12-10 SW
+    987324 '
+  - Dear Ms. Danvers
+  - 'Many congratulations for your success and achievement in our organization. With
+    all your hard work and dedication towards your work, you have proven you have
+    all capabilities to handle many big projects in the future. Your ability to play
+    an important role in the team and keeping your cool under pressure, resulted in
+    a significant increase of success for the project Burrow as the mechanical design
+    engineer. With the bonus of the project finishing possibly ahead of schedule. '
+  - "As you know, project Burrow was Brisk Technologies\u2019 latest and most ambitious
+    project to date. Other companies in the past have tried to create subterranean
+    tunnels for trains, but failed. With your design, it seems we will be to achieve
+    our goal of improving the transportation infrastructure, having trains travel
+    more efficiently underground instead of aboveground."
+  - Thus the current success of the project belongs to you. We are very satisfied
+    with your work and have heard your fellow team members praising your work. Hence
+    we, the company have decided to send you this letter, to inform you of our appreciation
+    to you and your work dedication.
+  - Thus the current success of the project belongs to you. We are very satisfied
+    with your work and have heard your fellow team members praising your work. Hence
+    we, the company have decided to send you this letter, to inform you of our appreciation
+    to you and your work dedication.
+  - Once again, congratulations and we hope you will maintain this attitude and work
+    ethic throughout your future projects.
+  - 'Sincerely, Marvin Leynthall p.p Louis Warbulton Secretary   '
+  - 'Sagittarius National Company Inc. TELEGRAM '
+  - 'Sent: 14 Aug 1945 Orig: Candrift Apartments          Receipt No. 03854 '
+  - '-Acknowledgement of Transaction: Customer Copy -'
+  - 'Received from: Harriet Danvers                    The Sum of: $1,185'
+  - (One Thousand One Hundred and Eighty Five Dollars)
+  - 'For Rent at: Candrift Apartments Rm #12-10'
+  - ' 18 Alderdeen Street'
+  - ' SloeWaden 987324'
+  - 'For the period: Start date to End Date'
+  - 'Received by: Ian Denkell'
+  - ' Candrift Apartments'
+  - ' 18 Alderdeen Street'
+  - ' SloeWaden 987324'
+  - 14th August 1945
+  - ' Hello Harriet, '
+  - 'Glad to see you are looking much better! I was starting to get worried about
+    you. '
+  - 'I was just wondering if you would like to join me and a few other residents in
+    the annual sports day event. We compete in various sports against other residents
+    from nearby apartment complexes. If you do not want to participate, that is fine,
+    as many others come to spectate as well. '
+  - 'Either way, there is plenty of fun to be had. Free food and drinks with great
+    company. Cannot go wrong with that. '
+  - Write back soon and let me know if you plan on joining us or at least spectating
+    the event!
+  - 'Regards, Vera '
+  - '25 Calvary Lane Equine, HR 73820  August 12th 1945 '
+  - Hello sweetheart,
+  - "We are so proud that you overcame the hurdles you were experiencing. Hopefully
+    now things will not be so stressful for you at work. It sounds like you have gained
+    the artificers\u2019 respect when you explained your design and showed a small
+    prototype"
+  - "I know it was my idea honey, but you were the one who took it that idea and made
+    it work. Let\u2019s just say credit should go to the both of us, and call it even?"
+  - 'Thank you for sending the letter to your father about the irrigation system.
+    He said your letter along with the original blueprint helped him to narrow down
+    where the problem was. He confirmed there was a blockage and removed it. He even
+    managed to put it back together with no problems! Hopefully he sent you a letter
+    to thank you, if not let me know and I will have some words with him. '
+  - "We just heard on the radio that your company plans to improve and implement tunnels
+    for the trains! They even mentioned your name! I am so proud of you honey.  Your
+    aunt Linda was so shocked to hear you being mentioned in the news, connected with
+    Brisk Technologies\u2019 latest project as their lead mechanical designer. She
+    actually called me to confirm the news! I really do not understand why the thought
+    of you working for a large well-known company is so earth-shattering for her.
+    Especially since it is known within the family you love to invent. "
+  - Enough about her, just know your mom and dad are proud of you for going out there
+    and chasing your dream. Do not forget to look after yourself!
+  - 'Love, Mom & Dad '
   uniqueTerms:
   - '-'
   - (Monday).
@@ -7983,7 +8336,1313 @@ MonoBehaviour:
   - you
   - You
   - your
-  gibTerms: []
+  gibTerms:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   autoGibTerms:
   - '-'
   - (Mpnfsy).
@@ -8053,7 +9712,7 @@ MonoBehaviour:
   - ypi
   - Ypi
   - ypir
-  Translated: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Translated: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   gibberishText:
   - ' <color=#FF0000FF>Sshiyysriis</color> <color=#FF0000FF>Nsyipnsl</color> <color=#FF0000FF>Cpjpsny</color>
     <color=#FF0000FF>Inv.</color>'
@@ -8096,7 +9755,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1638954623
 GameObject:
@@ -9804,19 +11463,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 136655738}
     m_Modifications:
     - target: {fileID: 4499176961404026, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.023
+      value: 0.599
       objectReference: {fileID: 0}
     - target: {fileID: 4499176961404026, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.879
+      value: -0.17393947
       objectReference: {fileID: 0}
     - target: {fileID: 4499176961404026, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.193
+      value: -0.05399999
       objectReference: {fileID: 0}
     - target: {fileID: 4499176961404026, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9836,7 +11495,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4499176961404026, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4499176961404026, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -9858,6 +11517,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1954622994 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4499176961404026, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1954622993}
 --- !u!1 &1960370018
 GameObject:
   m_ObjectHideFlags: 0
@@ -10914,7 +12578,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2101188101
 MonoBehaviour:
