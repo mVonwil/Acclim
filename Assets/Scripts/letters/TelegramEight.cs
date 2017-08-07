@@ -7,6 +7,8 @@ public class TelegramEight : MonoBehaviour
 {
 
     GibberishManager gibMan;
+	ObjectInteract objInt;
+	public Transform empty;
     public Text text1;
     public Text text2;
     public Text text3;
@@ -21,12 +23,14 @@ public class TelegramEight : MonoBehaviour
     void Start()
     {
         gibMan = GameObject.FindGameObjectWithTag("GibberishManager").GetComponent<GibberishManager>();
+		objInt = this.gameObject.GetComponentInChildren<ObjectInteract> ();
     }
 
     // Update is called once per frame
     void Update()
     {
         UpdateText();
+		MoveToStorage ();
     }
 
     void UpdateText()
@@ -40,4 +44,15 @@ public class TelegramEight : MonoBehaviour
         text7.text = gibMan.gibberishText[129];
 
     }
+
+	void MoveToStorage(){
+		bool interCheck = objInt.anim.GetBool ("Interact");
+		if (interCheck == true && Input.GetMouseButtonDown(0) && objInt.isTargeted == true) {
+			Debug.Log ("Moving");
+			GetComponent<Animator> ().enabled = false;
+			transform.position = empty.position;
+			transform.rotation = empty.rotation;
+		} else
+			return;
+	}
 }

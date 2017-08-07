@@ -18,6 +18,9 @@ public class InteractManager : MonoBehaviour {
 	void Update () {
 		ShootRay ();
 		OnScreenText ();
+		if(Input.GetKeyDown(KeyCode.Escape)){
+			Application.Quit();
+		}
 	}
 
 	void ShootRay(){
@@ -37,8 +40,7 @@ public class InteractManager : MonoBehaviour {
 		if (rayHit.transform.gameObject.tag == "Interact") {
 			string objHit = rayHit.transform.gameObject.name;
 			onScreen.text = "Interact with " + objHit;
-		}
-		else
+		} else
 			onScreen.text = "";
 	}
 }

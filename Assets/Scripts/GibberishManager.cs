@@ -88,16 +88,16 @@ public class GibberishManager : MonoBehaviour {
 	}
 
 	void RefreshText(){
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.Alpha1)) {
 			RandomTranslate ();
 		}
 	}
 
 		void RandomTranslate(){
-		for (int b = 0; b < 50; b++) {
+		for (int b = 0; b < 20; b++) {
 			int boolClick = Random.Range (0, Translated.Count);
 			if (Translated [boolClick] == true) {
-				RandomTranslate ();
+				b--;
 				return;
 			} else
 				Translated [boolClick] = true;
