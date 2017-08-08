@@ -29,19 +29,15 @@ public class ObjectInteract : MonoBehaviour {
 	}
 
 	public void ChangeColor(){
-		if (stopColor == false) {
-			if (isTargeted == true)
-				obj.GetComponent<Renderer> ().material.color = Color.green;
-			else
-				obj.GetComponent<Renderer> ().material.color = originalColor;
-		} else
+		if (isTargeted == true && intMan.rayHit.transform.gameObject == this.gameObject)
+			obj.GetComponent<Renderer> ().material.color = Color.green;
+		else
 			obj.GetComponent<Renderer> ().material.color = originalColor;
 	}
 
 	void RunInteract(){
 		if (isTargeted == true && Input.GetMouseButtonDown (0) && anim.GetBool ("Interact") == false) {
 			anim.SetBool ("Interact", true);
-			stopColor = true;
 		} else if (isTargeted == true && Input.GetMouseButtonDown(0) && anim.GetBool ("Interact") == true) {
 			anim.SetBool ("Interact", false);
 		} else

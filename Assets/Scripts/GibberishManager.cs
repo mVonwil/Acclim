@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//using System.IO;
 
 public class GibberishManager : MonoBehaviour {
 
@@ -51,7 +52,7 @@ public class GibberishManager : MonoBehaviour {
 
 		GenerateText ();
 
-
+		//ExportTerms ();
 
     }
 	
@@ -103,4 +104,13 @@ public class GibberishManager : MonoBehaviour {
 				Translated [boolClick] = true;
 		}
 	}
+	/*
+	void ExportTerms (){
+		StreamWriter terms = new StreamWriter (@"C:\terms.txt");
+		for (int c = 0; c < 1556; c++) {
+			terms.WriteLine ("Element " + c + ":" + uniqueTerms [c]);
+		}
+		terms.Close ();
+	}
+	*/
 }

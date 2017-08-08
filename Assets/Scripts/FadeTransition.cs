@@ -8,7 +8,8 @@ public class FadeTransition : MonoBehaviour {
 
 	public CanvasGroup fadeImage;
 
-	public float fadeDur = 0.01f;
+	public float fadeDur = 100;
+	public float timer;
 
 	// Use this for initialization
 	void Start () {
@@ -21,23 +22,27 @@ public class FadeTransition : MonoBehaviour {
 	}
 
 	void Fade(){
-		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Door Knob") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime == 1)
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Fade Transition") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime == 1)
 			anim.SetBool("Fade", true);
 		if (anim.GetBool ("Interact") == true) {
 			FadeIn ();
 			if (fadeImage.alpha >= 1)
 				anim.SetBool ("Interact", false);
 		}
-		if (anim.GetBool ("Interact") == false)
+		if (anim.GetBool ("Interact") == false && timer >= 2)
 			FadeOut ();
 	}
 
 	void FadeIn(){
-		fadeImage.alpha += (Time.deltaTime * fadeDur);
+		fadeImage.alpha += (Time.deltaTime / fadeDur);
+		timer += Time.deltaTime;
 	}
 
 	void FadeOut(){
-		fadeImage.alpha -= (Time.deltaTime * fadeDur);
+		//fadeImage.alpha = 1;
+		fadeImage.alpha -=  (Time.deltaTime / fadeDur);
+		anim.SetBool ("Fade", false);
+		timer = 0;
 	}
 
 	//void Fade(){

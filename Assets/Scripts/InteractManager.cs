@@ -39,7 +39,7 @@ public class InteractManager : MonoBehaviour {
 	void OnScreenText(){
 		if (rayHit.transform.gameObject.tag == "Interact") {
 			string objHit = rayHit.transform.gameObject.name;
-			onScreen.text = "Interact with " + objHit;
+			onScreen.text = objHit;
 		} else
 			onScreen.text = "";
 	}
