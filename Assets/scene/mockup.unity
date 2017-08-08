@@ -11997,7 +11997,99 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1031264763800366, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
       propertyPath: m_Name
-      value: Telegram
+      value: Telegram1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1288953228262146, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Telegram2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452809094389752, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Telegram3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074239371457912, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Mom's letter2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715343633211488, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Telegram4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198223419968814, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Mom's letter3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996369370587640, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Mom's letter 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594290664158236, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4615495501756146, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4065887417790886, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363344340837698, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Telegram5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233733770503724, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Telegram6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004970224633158, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Vera_letter2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408355187508306, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Comp_Letter2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092882238672920, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Telegram7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1215424262529966, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Mom's letter5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956785845718876, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Mom's letter6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1229187483929102, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Mom's letter7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370352259179486, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Telegram8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419482240835774, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Vera_letter3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756903396796484, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Comp_Letter3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035336717126086, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Comp_Letter4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441225020633152, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Vera_letter4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362946008229400, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
+      propertyPath: m_Name
+      value: Mom's letter8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1ce81b67b34da7342bf69cc8e6b27d74, type: 2}
