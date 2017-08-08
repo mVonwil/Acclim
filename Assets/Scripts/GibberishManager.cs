@@ -53,7 +53,7 @@ public class GibberishManager : MonoBehaviour {
 
 
 
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
