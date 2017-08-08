@@ -1609,7 +1609,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_TagString
-      value: Interact
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 114978168827002894, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
         type: 2}
@@ -1677,6 +1677,10 @@ Prefab:
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_Name
       value: Telegram4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188965189860538, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
+      propertyPath: m_TagString
+      value: Interact
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114268977508005040, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
@@ -2274,7 +2278,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_TagString
-      value: Interact
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 114978168827002894, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
         type: 2}
@@ -2347,6 +2351,10 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_Alignment
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188965189860538, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
+      propertyPath: m_TagString
+      value: Interact
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114268977508005040, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
@@ -3061,7 +3069,7 @@ GameObject:
   - component: {fileID: 482342134}
   - component: {fileID: 482342137}
   m_Layer: 0
-  m_Name: Light Switch
+  m_Name: Turn the Lights On/Off
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4420,7 +4428,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_TagString
-      value: Interact
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 114978168827002894, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
         type: 2}
@@ -4493,6 +4501,10 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_Alignment
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188965189860538, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
+      propertyPath: m_TagString
+      value: Interact
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114268977508005040, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
@@ -4929,7 +4941,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_TagString
-      value: Interact
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 114978168827002894, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
         type: 2}
@@ -4997,6 +5009,10 @@ Prefab:
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_Name
       value: Telegram3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188965189860538, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
+      propertyPath: m_TagString
+      value: Interact
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114268977508005040, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
@@ -5817,7 +5833,7 @@ GameObject:
   - component: {fileID: 852896008}
   - component: {fileID: 852896007}
   m_Layer: 0
-  m_Name: Receiver
+  m_Name: Open/Close Receiver
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7154,7 +7170,7 @@ GameObject:
   - component: {fileID: 1091449347}
   - component: {fileID: 1091449350}
   m_Layer: 0
-  m_Name: Wardrobe
+  m_Name: Open/Close Wardrobe
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7398,6 +7414,14 @@ Prefab:
       propertyPath: empty
       value: 
       objectReference: {fileID: 300111495}
+    - target: {fileID: 1140029590623580, guid: 1de8b95a8e54efb4b94359466c676515, type: 2}
+      propertyPath: m_TagString
+      value: Interact
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385839104561452, guid: 1de8b95a8e54efb4b94359466c676515, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1de8b95a8e54efb4b94359466c676515, type: 2}
   m_IsPrefabParent: 0
@@ -11755,7 +11779,7 @@ GameObject:
   - component: {fileID: 1638954625}
   - component: {fileID: 1638954628}
   m_Layer: 0
-  m_Name: Wardrobe
+  m_Name: Open/Close Wardrobe
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12427,7 +12451,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_TagString
-      value: Interact
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 114978168827002894, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
         type: 2}
@@ -12500,6 +12524,10 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_Alignment
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188965189860538, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
+      propertyPath: m_TagString
+      value: Interact
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114268977508005040, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
@@ -13789,7 +13817,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1089230637027242, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114168772843752136, guid: 7d1fa4739881f5944ab1e398869376b1,
         type: 2}
@@ -13848,7 +13876,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1089230637027242, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
       propertyPath: m_TagString
-      value: Interact
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1569847008136862, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
       propertyPath: m_Name
@@ -13868,6 +13896,10 @@ Prefab:
       propertyPath: empty
       value: 
       objectReference: {fileID: 1155235741}
+    - target: {fileID: 1569847008136862, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
+      propertyPath: m_TagString
+      value: Interact
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114432206143241730, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 7d1fa4739881f5944ab1e398869376b1, type: 2}
@@ -13967,7 +13999,7 @@ GameObject:
   - component: {fileID: 1871675400}
   - component: {fileID: 1871675403}
   m_Layer: 0
-  m_Name: Freezer
+  m_Name: Open/Close Freezer
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14600,7 +14632,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_TagString
-      value: Interact
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 114978168827002894, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
         type: 2}
@@ -14663,13 +14695,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114268977508005040, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
         type: 2}
       propertyPath: empty
       value: 
       objectReference: {fileID: 1207042455}
+    - target: {fileID: 1188965189860538, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
+      propertyPath: m_TagString
+      value: Interact
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
   m_IsPrefabParent: 0
@@ -14851,7 +14887,7 @@ GameObject:
   - component: {fileID: 2014496960}
   - component: {fileID: 2014496963}
   m_Layer: 0
-  m_Name: Fridge
+  m_Name: Open/Close Fridge
   m_TagString: Interact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15189,7 +15225,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1297228803234886, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
       propertyPath: m_TagString
-      value: Interact
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 114978168827002894, guid: 08d465287c8ed0e46a7a52ee47f36a2c,
         type: 2}
@@ -15262,6 +15298,10 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_Alignment
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188965189860538, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
+      propertyPath: m_TagString
+      value: Interact
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114268977508005040, guid: 08d465287c8ed0e46a7a52ee47f36a2c, type: 2}
