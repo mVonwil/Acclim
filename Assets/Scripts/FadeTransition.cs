@@ -39,7 +39,9 @@ public class FadeTransition : MonoBehaviour {
 	}
 
 	void FadeOut(){
-		fadeImage.alpha -= (Time.deltaTime / fadeDur);
+		//fadeImage.alpha = 1;
+		fadeImage.alpha -=  (Time.deltaTime / fadeDur);
+		anim.SetBool ("Fade", false);
 		timer = 0;
 	}
 
