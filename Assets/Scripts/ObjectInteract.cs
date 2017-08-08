@@ -11,13 +11,14 @@ public class ObjectInteract : MonoBehaviour {
 	public bool isTargeted;
 	public Color originalColor;
 	public bool stopColor;
+	public bool buttonPress;
 
 	// Use this for initialization
 	void Start () {
 		intMan = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<InteractManager> ();
 		originalColor = obj.GetComponent<Renderer> ().material.color;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		ChangeColor ();
@@ -36,9 +37,9 @@ public class ObjectInteract : MonoBehaviour {
 	}
 
 	void RunInteract(){
-		if (isTargeted == true && Input.GetMouseButtonDown (0) && anim.GetBool ("Interact") == false) {
+		if (isTargeted == true && buttonPress == true && anim.GetBool ("Interact") == false) {
 			anim.SetBool ("Interact", true);
-		} else if (isTargeted == true && Input.GetMouseButtonDown(0) && anim.GetBool ("Interact") == true) {
+		} else if (isTargeted == true && buttonPress == true && anim.GetBool ("Interact") == true) {
 			anim.SetBool ("Interact", false);
 		} else
 			return;

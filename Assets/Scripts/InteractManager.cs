@@ -9,6 +9,7 @@ public class InteractManager : MonoBehaviour {
 	public RaycastHit rayHit;
 	public GameObject obj;
 	public Text onScreen;
+	public bool buttonPress;
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +31,10 @@ public class InteractManager : MonoBehaviour {
 			if (rayHit.distance < 5 && rayHit.transform.gameObject.GetComponent<ObjectInteract>() == true) {
 				obj = rayHit.transform.gameObject;
 				obj.GetComponent<ObjectInteract> ().isTargeted = true;
+				if (buttonPress == true)
+					obj.GetComponent<ObjectInteract> ().buttonPress = true;
+				else 
+					obj.GetComponent<ObjectInteract> ().buttonPress = false;
 			} else
 				return;
 		} else
