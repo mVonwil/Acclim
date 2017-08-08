@@ -54,7 +54,7 @@ public class GibberishManager : MonoBehaviour {
 
 		//ExportTerms ();
 
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
