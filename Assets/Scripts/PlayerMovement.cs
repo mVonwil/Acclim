@@ -6,6 +6,7 @@ using XboxCtrlrInput;
 public class PlayerMovement : MonoBehaviour {
 
 	InteractManager intMan;
+	UIManager pauseMan;
 
 	public GameObject body;
 
@@ -17,9 +18,13 @@ public class PlayerMovement : MonoBehaviour {
 	public float addLookHori;
 	public float addLookVert;
 
+	public bool invertY;
+
 	// Use this for initialization
 	void Start () {
 		intMan = GetComponent<InteractManager> ();
+		pauseMan = GameObject.FindGameObjectWithTag ("PauseMenu").GetComponent<UIManager> ();
+		Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
@@ -36,57 +41,37 @@ public class PlayerMovement : MonoBehaviour {
 		float moveHori = XCI.GetAxis (XboxAxis.LeftStickX);
 		float moveVert = XCI.GetAxis (XboxAxis.LeftStickY);
 
-		float addMoveHori = (moveHori * moveSpeed * Time.deltaTime);
-		float addMoveVert = (moveVert * moveSpeed * Time.deltaTime);
-
-		newPosition = new Vector3 (addMoveHori, 0, addMoveVert);
-
-		body.transform.position += newPosition;
-		/*
-		float axisX = XCI.GetAxis (XboxAxis.LeftStickX);
-		float axisY = XCI.GetAxis (XboxAxis.LeftStickY);
-
-		float newPosX = newPosition.x + (axisX * moveSpeed * Time.deltaTime);
-		float newPosZ = newPosition.z + (axisY * moveSpeed * Time.deltaTime);
-
-		newPosition = new Vector3 (newPosX, 1, newPosZ);
-		body.transform.localPosition = newPosition;
-		*/
+		if (moveHori > 0)
+			body.transform.position += (body.transform.right * moveHori * moveSpeed * Time.deltaTime);
+		else if (moveHori < 0)
+			body.transform.position += (body.transform.right * moveHori * moveSpeed * Time.deltaTime);
+		if (moveVert > 0)
+			body.transform.position += (body.transform.forward * moveVert * moveSpeed * Time.deltaTime);
+		else if (moveVert < 0)
+			body.transform.position += (body.transform.forward * moveVert * moveSpeed * Time.deltaTime);
 	}
 
 	void PlayerLook(){
 
-		Quaternion newLook = transform.rotation;
 		Quaternion bodyLook = body.transform.rotation;
 
 		lookHori = XCI.GetAxis (XboxAxis.RightStickX);
 		lookVert = XCI.GetAxis (XboxAxis.RightStickY);
 
-		addLookHori += (lookHori * moveSpeed * Time.deltaTime);
-		addLookVert += (lookVert * moveSpeed * Time.deltaTime);
+		addLookHori += (lookHori * lookSpeed * Time.deltaTime);
+		if (invertY == true)
+			addLookVert += (lookVert * lookSpeed * Time.deltaTime);
+		else
+			addLookVert += (-lookVert * lookSpeed * Time.deltaTime);
 
-		if (addLookVert >= .45f)
-			addLookVert = .45f;
-		if (addLookVert < -.85f)
-			addLookVert = -.85f;
+		if (addLookVert < -85)
+			addLookVert = -85;
+		else if (addLookVert > 34)
+			addLookVert = 34;
 
-		newLook = new Quaternion (addLookVert, addLookHori, 0, transform.rotation.w);
-
-		transform.rotation = newLook;
-
-		bodyLook.y = newLook.y;
-		body.transform.rotation = bodyLook;
-		/*
-		float axisY = XCI.GetAxis (XboxAxis.RightStickX);
-		float axisX = XCI.GetAxis (XboxAxis.RightStickY);
-
-		float newLookX = newLook.x + (axisX * lookSpeed * Time.deltaTime);
-		float newLookY = newLook.y + (axisY * lookSpeed * Time.deltaTime);
-
-		newLook = new Quaternion (newLookX, newLookY, 0, transform.rotation.w);
-
-		transform.localRotation = newLook;
-		*/
+		transform.eulerAngles = new Vector3 (addLookVert, addLookHori, 0);
+		
+		body.transform.eulerAngles = new Vector3 (0, addLookHori, 0);
 	}
 
 	void Buttons(){
@@ -94,5 +79,15 @@ public class PlayerMovement : MonoBehaviour {
 			intMan.buttonPress = true;
 		else
 			intMan.buttonPress = false;
+		//if (XCI.GetButtonDown (XboxButton.Start))
+			//pauseMan.TogglePauseMenu ();
+		if (XCI.GetButtonDown (XboxButton.Y)) {
+			if (invertY == false)
+				invertY = true;
+			else
+				invertY = false;
+		}
+		if (XCI.GetButtonDown (XboxButton.Start) && XCI.GetButtonDown (XboxButton.Back))
+			Application.Quit ();
 	}
 }

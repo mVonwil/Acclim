@@ -19,9 +19,7 @@ public class InteractManager : MonoBehaviour {
 	void Update () {
 		ShootRay ();
 		OnScreenText ();
-		if(Input.GetKeyDown(KeyCode.Escape)){
-			Application.Quit();
-		}
+	
 	}
 
 	void ShootRay(){
