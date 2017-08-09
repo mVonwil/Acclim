@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.014272037, g: 0.006544047, b: 0.0014980278, a: 1}
+  m_IndirectSpecularColor: {r: 0.0142720835, g: 0.006544097, b: 0.0014980617, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -29515,7 +29515,7 @@ MonoBehaviour:
   - TELEGRAM
   - Use this form for all telegrams or radiograms
   - 'Orig: Brisk Technologies'
-  - 'Sent: 19th April 1837'
+  - 'Sent: 19th April 1873'
   - THIS IS AN AUTOMATED REMINDER, PLEASE DO NOT REPLY TO THIS TELEGRAM
   - 'You are expected at Brisk Technologies Headquarters at 0845am for work orientation
     on 14th August (Monday). Failure to show up will result in possible termination
@@ -29527,7 +29527,7 @@ MonoBehaviour:
   - TELEGRAM
   - Use this form for all telegrams or radiograms
   - 'Orig: Comstock Learning Center'
-  - 'Sent: 19th April 1837'
+  - 'Sent: 19th April 1873'
   - 'Welcome to SloeWaden! Comstock Learning Center is the #1 choice for many newcomers
     who come to live in our beautiful city. We offer free lessons to all newcomers
     to learn our native language. Learning our language goes a long way in helping
@@ -29874,7 +29874,7 @@ MonoBehaviour:
   - 'COME JOIN AND EXPERIENCE THE MAGIC THAT IS CARNIVAL NIGHT! HOSTED BY LITWACK
     CIRCUS, ADMISSIONS ARE COMPLETELY FREE FOR ALL WHOM WISH TO ATTEND. FOR TWO NIGHTS
     ONLY! FEATURING ACTS FROM: VAR DE VAUE SOCIETY, LAGUNITAS AND MANY MORE! SO COME
-    ON DOWN TO MAREK ROAD TO WITNESS THE EXTRAGANZA THAT IS CARNIVAL NIGHT AT LITWACK
+    ON DOWN TO MAREK ROAD TO WITNESS THE EXTRAVAGANZA THAT IS CARNIVAL NIGHT AT LITWACK
     CIRCUS'
   - Litwack Circus
   - 9:00AM
@@ -29935,10 +29935,10 @@ MonoBehaviour:
   - 'Acknowledgement of Transaction: Customer Copy'
   - 'Received from: Harriet Danvers           The Sum of: $1,185'
   - (One Thousand One Hundred and Eighty Five Dollars)
-  - "For Rent at: Candrift Apartments Rm #12-10 \t\t 18 Alderdeen Street \t\t SloeWaden
+  - "For Rent at: Candrift Apartments Rm #12-10 \t\t 18 Alderdenn Street \t\t SloeWaden
     987324 "
   - 'For the period: 10th May 1873 to 7th June 1873'
-  - "Received by: Ian Denkell \t\t Candrift Apartments \t\t 18 Alderdeen Street \t\t
+  - "Received by: Ian Denkell \t\t Candrift Apartments \t\t 18 Alderdenn Street \t\t
     SloeWaden 987324 "
   - 17th May 1873
   - Hello Harriet,
@@ -29958,7 +29958,7 @@ MonoBehaviour:
   - Write back soon and let me know if you plan on joining us or at least spectating
     the event!
   - Regards, Vera
-  - 17th May 1973
+  - 17th May 1873
   - Hello sweetheart,
   - So sorry for taking so long to send you a letter. Aunt Pamela was stirring drama
     up again and I did not realize I never replied to your letter. Please do not be
@@ -29986,143 +29986,140 @@ MonoBehaviour:
   gibTerms:
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - '#0243'
+  - '#1'
+  - '#1:'
+  - '#12-04'
+  - '#12-10'
+  - '#12-10,'
+  - '#1768'
+  - '#1823'
+  - '#2:'
+  - '#3927'
+  - '#6696'
+  - $1,185
+  - $1,185.
+  - $60,000
+  - '&'
   - (enisora
   - (ovoce
-  - (Mapar)
+  - (Mapar).
   - (Lo
   - '''nece'
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 03854
+  - 05.05.1873
+  - 0845am
+  - 09:00AM
+  - 1
   - 1. Awovoti
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 1.30pm
+  - 10
+  - 10th
+  - 11:30AM.
+  - 13
+  - 14th
+  - 17th
+  - 18
+  - 1873
+  - 18th
+  - 19th
+  - 2
   - 2. Ficaw
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 2:48
+  - 20th
+  - 21st
+  - 24th
+  - 25
+  - 25th
+  - 26th
+  - 27.04.1873
+  - 27th
+  - 28th
+  - 3
   - 3. Kahalit / Herun
   - 4. Repar
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 4:30
+  - 4pm
+  - 4th
+  - 5
+  - 5th
+  - 6pm
+  - 7:55AM
+  - 73820
+  - 7th
+  - 8:45AM
+  - 9:00
+  - 9:00AM
+  - 987324
+  - a
   - a. Hihiend
   - Waris
   - paraobili
   - paraobo
   - gok
-  - tebam
-  - tebam
-  - Aseniela
-  - Ehete
-  - Eheted
+  - ebam
+  - ebam.
+  - aseniela.
+  - ehete
+  - eheted
   - lukoru
   - weidire
   - oteh
-  - Oteherat
+  - oteherat
   - Xsipau
   - putiet
   - cetaret
   - cetaiwn
   - deriroti
   - deririv
-  - Deririv
+  - Deririv.
   - DERI
   - fele
-  - fele
-  - oxehope
-  - isut
+  - fele,
+  - oxehope,
+  - 'Isut:'
   - isutsed
   - uvih
   - NAKMO
   - toged
-  - toges
+  - toges,
   - vonenog
   - remay
   - metas
-  - metas
+  - metas,
   - metast
   - blurp
   - blurple
-  - blurple
-  - blurple
-  - blurple
+  - Blurple
+  - Blurple,
+  - Blurple.
   - dah
   - va
   - dipoge
   - Eendalr
-  - Eendalr
   - nem
-  - nem
-  - nem
+  - Nem
+  - NEM
   - pakwah
   - nalvar
   - dote
-  - dote
+  - dote.
   - reptim
-  - reptim
-  - karlek
-  - karlek
+  - Reptim,
+  - Karlek
+  - Karlek,
   - detta
   - fos
-  - fos
+  - FOS
   - kommer
   - fon
-  - fon
+  - FON
   - nagon
   - NAGON
   - vakta
   - Nlavi
   - du
-  - duita
+  - duita.
   - dumna
   - kompis
   - kompis.
@@ -30132,7 +30129,7 @@ MonoBehaviour:
   - supam
   - vurpac
   - Alipr
-  - Alipr
+  - Alipr,
   - ro
   - RO
   - rabos
@@ -30142,15 +30139,16 @@ MonoBehaviour:
   - yoodt
   - Yoodt
   - yoodt.
+  - yoodt.
   - yoodt?
-  - yoodti
+  - yoodts
   - lyr
+  - Lyr
   - 'lyr:'
   - BEDT
   - ayem
   - ayemd
   - ayemi
-  - ayemh
   - ekembeht
   - xayah
   - tayem
@@ -30161,25 +30159,25 @@ MonoBehaviour:
   - 'vehk:'
   - avemot
   - luc
-  - LUC
+  - LUC.
   - luced
   - luceyic
   - reserih
-  - stnemle
+  - stenemle
   - Gordas
   - Gordas,
-  - fuf
+  - Fuf
   - Saka
   - sakaroas
   - SAKAROAS
   - sakaron
   - Sakaron
-  - Sakarons
   - sakarons
+  - Sakarons
+  - sakarons.
   - hulolo
   - wad
   - covar
-  - nodojfsa
   - b. Atepucos
   - oihsd
   - oihsd.
@@ -30191,8 +30189,8 @@ MonoBehaviour:
   - eb
   - gninommus
   - gnino
-  - betuc
   - beuacse
+  - beucat
   - yaf
   - irira
   - irira.
@@ -30200,23 +30198,23 @@ MonoBehaviour:
   - Neicul
   - cooda
   - lobozo
-  - von
-  - leod
+  - bynauid
+  - leod.
   - sujun
-  - Sujun,
+  - sujun,
   - giga
   - Giga
   - thra
   - thra.
+  - thra?
   - kuai
-  - yico
+  - yico.
   - kilir
-  - kilr
   - 'sakeley '
   - sakeley,
   - sakelies
   - ludavan
-  - tecab
+  - tecad
   - sunob
   - fiecey
   - fiecey.
@@ -30230,7 +30228,7 @@ MonoBehaviour:
   - zusip
   - nemo
   - Loger
-  - use
+  - gub
   - amuriel
   - amuriel.
   - Ziggaur
@@ -30242,7 +30240,7 @@ MonoBehaviour:
   - peb
   - PEB
   - 'peb:'
-  - c. Eveberod
+  - c. Eveberod.
   - hovag
   - Tebeku
   - cero
@@ -30287,16 +30285,16 @@ MonoBehaviour:
   - agnhild
   - pitipa,
   - pitipa.
-  - Puracel
+  - Puracel.
   - nargel
   - nargels
   - loteni
-  - snorkack
+  - snorkacks
   - unef
   - masi
   - MASI
   - masis
-  - telenim
+  - telenim.
   - rinafe
   - 'lameno '
   - laenoed
@@ -30327,11 +30325,12 @@ MonoBehaviour:
   - cooroy
   - mirconf
   - mirconfation
+  - lugracutions
   - Lugracutions
   - Lugracutions!
   - tenscon
   - dieredcon
-  - ehyeyi
+  - toncact
   - ehyeyi
   - EHYEYI
   - ehyeyi.
@@ -30339,12 +30338,11 @@ MonoBehaviour:
   - versecon
   - koco
   - loco
-  - pocy
+  - Pocy
   - rocrectly!
   - rocrectly,
   - tosc
   - tosc-onalosil
-  - itehiti
   - didose
   - didose'n
   - ounctry
@@ -30356,9 +30354,9 @@ MonoBehaviour:
   - toroton.
   - nanehip
   - xenu
-  - varadeg
-  - d. Ummaru
-  - pa
+  - Varadeg
+  - d. Ummaru.
+  - Pa
   - paben
   - Paben
   - Versdan
@@ -30373,9 +30371,9 @@ MonoBehaviour:
   - deleci
   - yad
   - yad.
-  - syad
-  - syads.
-  - 
+  - yads
+  - yads.
+  - ED
   - awopono.
   - Eard
   - aletol
@@ -30403,9 +30401,9 @@ MonoBehaviour:
   - tilielut
   - tabe
   - giblediri
-  - giblesdiri
+  - giblediris
   - tird
-  - Qocoakeni
+  - qocoakeni,
   - sobic
   - epatoyur
   - epato,
@@ -30446,16 +30444,16 @@ MonoBehaviour:
   - acrougie
   - ustkea
   - eck
-  - nudticoae
+  - nudticoae.
   - eftfec
   - linieyffetc
   - orfeft
   - esgg
-  - heyigte
-  - terhie
+  - Heyigte
+  - Terhie
   - etceeld
   - eles
-  - eles
+  - eles.
   - eolmpy
   - eolmpyed
   - eolmpyee
@@ -30467,9 +30465,9 @@ MonoBehaviour:
   - Eolmpyement.
   - oencageru
   - edn
-  - naredoev
+  - naredoev.
   - deedn
-  - neiserge
+  - neiserge,
   - gangee/atacipreptie
   - egirnnee.
   - egirnneering
@@ -30477,12 +30475,12 @@ MonoBehaviour:
   - egirnnees,
   - ejyon
   - ejyoned
-  - nyoejde
+  - Nyoejde
   - eusren
   - intemenneartt
   - dietletn
-  - eqeieu
-  - eqeieu
+  - Eqeieu,
+  - Eqeieu.
   - enpqmiuet
   - sarnred.
   - laeeilycsp
@@ -30496,7 +30494,7 @@ MonoBehaviour:
   - teven!
   - teven.
   - tevens
-  - nihger-gebcav
+  - nihger-gebcav.
   - eryve
   - Eryve
   - eryvetihng
@@ -30505,7 +30503,7 @@ MonoBehaviour:
   - txcnieg
   - txcniegi
   - eptxce
-  - eptxceations
+  - eptxceations.
   - eptxced
   - sespexne
   - Eespexne.
@@ -30519,7 +30517,7 @@ MonoBehaviour:
   - reerxps
   - reerxpsed
   - traxe
-  - naaxargzte
+  - ZXRANAVAEATG
   - yertxemle
   - yee
   - yees.
@@ -30531,7 +30529,7 @@ MonoBehaviour:
   - miyafl,
   - fuamso
   - afr
-  - afr
+  - afr.
   - sepa-cadtf
   - etfrah
   - tuafeig
@@ -30553,8 +30551,8 @@ MonoBehaviour:
   - efin,
   - snifhigin
   - fisrt
-  - ifev
-  - lighft
+  - Ifev
+  - lighft,
   - lyf
   - soucedf
   - fwgonllio
@@ -30578,7 +30576,7 @@ MonoBehaviour:
   - Refe
   - REFE
   - sefrh
-  - airfyd
+  - Airfyd
   - deisrfn
   - deisrfn,
   - deisrfn.
@@ -30587,7 +30585,7 @@ MonoBehaviour:
   - 'FMOR:'
   - stredarfut
   - stredarfutaiton
-  - ulel-mfit
+  - Ulel-Mfit
   - ufn
   - tuehrrf
   - Erfreuomht,
@@ -30603,12 +30601,12 @@ MonoBehaviour:
   - ugaeg
   - ugaeg.
   - raleneg
-  - faregfi
+  - Faregfi
   - gte
   - gteting
   - vige
   - vigen
-  - vigen
+  - Vigen
   - ldag
   - Ldag
   - og
@@ -30638,873 +30636,870 @@ MonoBehaviour:
   - evah
   - evahn't
   - evahing
-  - iy
-  - Iy
-  - iy's
-  - eadh
-  - Eadhasterauq
-  - ihheta
-  - ihheta.
-  - raeh
-  - raeh,
-  - raehd
-  - raehing
-  - Raehing
-  - elohl
-  - lpeh
-  - lpehed
-  - lpehing
-  - ipehs
-  - Ehenc
-  - rhe
-  - rhe,
-  - rhe.
-  - heer
-  - heer.
-  - heerni.
-  - elrhefs
-  - tsaetieh
-  - Bo
-  - heitghs
-  - Hlil
-  - hmi
-  - hmi.
-  - deirh
-  - ish
-  - Oiyrshtcila
-  - 'oiyrsht '
-  - hmoe
-  - hmoe!
-  - hmoe.
-  - hmoetonwe
-  - eyonh!
-  - eyonh,
-  - eyonh.
-  - hpeo
-  - Hpeoulffy
-  - hpeos
-  - zhorisno.
-  - EDHSTO
-  - hwo
-  - Hwovere
-  - hwovere,
   - 
   - 
-  - rnedhdu
-  - ldruhe,
-  - ldruhes
-  - 
-  - Aln
-  - fi
-  - fi
-  - rnoieg
-  - gmnaiei
-  - liidtamyeem
-  - irsgaitmmn
-  - aeetcpimin
-  - aeetcpimin,
-  - peibcmecla
-  - nelemimetp
-  - naopmtrit
-  - deipemsrs
-  - deipersrsive
-  - vrpiome
-  - vriomeemnt
-  - vrpioming
-  - nu
-  - Nu
-  - nu!
-  - Nic.
-  - ovoce
-  - seeicrna
-  - ucndrier
-  - niormf
-  - arcetirstunrf,
-  - arcetirstunrf.
-  - 'aiivtntiei '
-  - niviontnoa.
-  - niviontnoas
-  - sndetia
-  - ruasnince)
-  - edenntdi
-  - eeitsrnt
-  - eeitsrnted
-  - eeitsrnting.
-  - eeitsrnts
-  - rfnreiete
-  - iotn
-  - unoidrtec
-  - unoidrteced
-  - rteoeirvdnt,
-  - nntiev
-  - nntiev.
-  - nntieved
-  - nntievtors
-  - 'lndivveo '
-  - sq
-  - SQ
-  - isesu
-  - isesu.
-  - ti
-  - Ti
-  - ti,
-  - ti.
-  - tis
-  - boj
-  - Boj
-  - boj.
-  - njoi
-  - NJOI
-  - njoiing
-  - 'oyurejn '
-  - unej
-  - ujts
-  - Ujts
-  - nece
-  - Nece
-  - neceing
-  - neces
-  - eyk
-  - oknw
-  - oknw,
-  - oknwing
-  - oknwegeld,
-  - oknwn
-  - kacl
-  - ASIUTNLAG
-  - 'alen '
-  - eauglnag
-  - eauglnag,
-  - eauglnag.
-  - glrea
-  - lsta
-  - lstaly
-  - lstaly,
-  - lstaly.
-  - lstaest
-  - awl
-  - laed
-  - spale
-  - nerla
-  - nerlaing
-  - Nerlaing
-  - nerlat.
-  - slaet
-  - slaet,
-  - slaet.
-  - lglelya
-  - olesssn
-  - olesssn!
-  - olesssn.
-  - lte
-  - tetelr
-  - tetelr,
-  - tetelr.
-  - tetelrs
-  - tetelr!
-  - eelvl
-  - Esilw
-  - Lyaethlnl
-  - rarbily
-  - Rarbily.
-  - elfi
-  - kile
-  - Kile
-  - kile!
-  - kile,
-  - kilely
-  - Waitlck
-  - Waitlck
-  - WAITLCK
-  - liev
-  - lievING
-  - loybb
-  - lclao
-  - lclaos
-  - cisvtoeoolm
-  - lnog
-  - lnogre
-  - lkoo
-  - lkooed
-  - lkooing
-  - tlo
-  - Oulis
-  - oevl
-  - Oevl,
-  - oevled
-  - oevlly
-  - klucyil
-  - risuoxuul
-  - ihnmeycar
-  - ihnmeycars
-  - 'dmea '
-  - GMIAC
-  - imaginl
-  - atninami
-  - meka
-  - Meka
-  - mekas
-  - mekaing
-  - maagned
-  - maagner
-  - Maagner.
-  - ranmne
-  - mayn
-  - Mayn
-  - MAYN
-  - Merka
-  - aminvr
-  - essmaiv
-  - esatmr
-  - tatmser.
-  - mya
-  - Mya
-  - Myaeb
-  - va
-  - va,
-  - va.
-  - naem
-  - naems
-  - naems.
-  - naemt
-  - ciaalhmenc
-  - mdicael
-  - tmee
-  - tmeeing
-  - tmeeing,
-  - tmeeing.
-  - tmeeings
-  - tmees
-  - egassem
-  - mebemrs
-  - idmtenoen
-  - EGASSEM,
-  - egassems
-  - egasseming
-  - amlielvl
-  - nimd
-  - linmge
-  - emntui
-  - ismesd
-  - xim
-  - casitodnofmii
-  - omm
-  - Omm
-  - Mapar
-  - Mapar.
-  - omnth
-  - omnth,
-  - moer
-  - moer!
-  - MOER
-  - nmoigrn.
-  - otsm
-  - mrtohe,
-  - mrtohe.
-  - iooatmtnvi
-  - eovmd
-  - eovming
-  - SM.
-  - muhc
-  - muuesm
-  - Muuesm
-  - ustm
-  - ym
-  - Ym
-  - ymelsf
-  - ymelsf,
-  - ianling
-  - ianling
-  - mnae
-  - mnae!
-  - mnae.
-  - 'Mnae:'
-  - owarnr
-  - atnnaloi
-  - vainte
-  - neuart.
-  - yrenab
-  - rlenya
-  - nrecassye
-  - eden
-  - egngeilctn
-  - gbhioern
-  - gbhioern!
-  - gbhioerns
-  - nveer
-  - wne
-  - Wne
-  - wneocmers
-  - wneocmers'
-  - wnely
-  - wnes
-  - wnes.
-  - xten
-  - ienc
-  - ITHGN
-  - ithgn!
-  - ITHGN!
-  - ithgn,
-  - ithgn.
-  - ITHGNS
-  - lkoian
-  - nl
-  - Nl.
-  - oenis
-  - orn
-  - otn
-  - OTN
-  - otn,
-  - otn.
-  - otning
-  - Otning.
-  - ctione
-  - ctioned
-  - lensov
-  - onw
-  - onw.
-  - enumorus
-  - fd
-  - Fd
-  - 'FD:'
-  - 'fd:'
-  - ffd
-  - ffd,
-  - fofer
-  - FOFER
-  - fofer,
-  - ficiaolfly
-  - notfe
-  - aoyk
-  - aoyk,
-  - aoyk.
-  - es
-  - Es
-  - ES
-  - onec
-  - ONEC
-  - neo
-  - Neo
-  - neos
-  - neos-taecrk
-  - gonniog
-  - olyn
-  - OLYN!
-  - olyn.
-  - utpooyrtpin
-  - utpooyrtpin.
-  - ro
-  - Ro
-  - reord
-  - inganoortiza.
-  - riotinnaeto
-  - riotinnaeto.
-  - 'Rigo:'
-  - rigoinal
-  - ehort
-  - Ehort
-  - ehort,
-  - ehorts
-  - Ehorts
-  - ehortswsie
-  - Ehortswsie
-  - uor
-  - Uor
-  - uto
-  - uto!
-  - uto,
-  - utoilne
-  - utoisde
-  - orve
-  - orvecaem
-  - orveignht
-  - wno
-  - wno,
-  - wno.
-  - 
-  - cgeapka
-  - adip
-  - peal
-  - leampa
-  - icnap
-  - rakp
-  - tpar
-  - cpeiatpirta
-  - trypa
-  - spak
-  - asps
-  - yvpasilse
-  - apst
-  - apst,
-  - nticpeae
-  - pya
-  - pyaenmt
-  - pepelo
-  - pepelo.
-  - rpe
-  - orfrmep
-  - orfrmepance
-  - orfrmepances
-  - prepahs
-  - pierod.
-  - 'pierod:'
-  - tylpernaenm
-  - pieternsst
-  - rpnoes
-  - rpnoesal
-  - rpnoesalities
-  - yetpt.
-  - eidlpck
-  - aepcl
-  - aepcl.
-  - aepcls
-  - anlp
-  - anlpned
-  - anlps
-  - pyla
-  - aesepl
-  - Aesepl
-  - AESEPL
-  - aesepled
-  - nlyetp
-  - 
-  - ioptn
-  - ioptn.
-  - ioptns
-  - lcyipo
-  - iointops
-  - opiivtse
-  - osepsbli
-  - osepsbli.
-  - osepsblily
-  - opts
-  - opts,
-  - ltatnoiep,
-  - tireapccs
-  - iipngasr
-  - prya
-  - porentacui
-  - eerrrfped
-  - eerrrfping
-  - iyalrrmenpi
-  - tresenp
-  - tresenped
-  - urepsers,
-  - ipougreisst
-  - opirr
-  - lmrobpe
-  - lmrobpe!
-  - lmrobpe,
-  - rouecpd
-  - iraeoysslonfpl
-  - otpcrej
-  - Otpcrej
-  - otpcrej,
-  - otpcrej.
-  - otpcrej's
-  - otpcrejs
-  - otpcrejs.
-  - opisrme
-  - opisrmed!
-  - orpof
-  - reoryplp
-  - lsraoospp
-  - toetorppy
-  - toetorppy.
-  - toetorppys
-  - toetorppys,
-  - upodr
-  - upodrer
-  - prevo
-  - prevod
-  - prevon
-  - voidpre
-  - voidpring
-  - punhisg
-  - utp
-  - tuyqail
-  - ssnueitoq.
-  - qilcuyk?
-  - uteiq
-  - ridao
-  - ridaorgams
-  - rahter
-  - eadr
-  - ayred
-  - reziale
-  - yalerl
-  - onrsea
-  - onrsea.
-  - onrseabale
-  - onrseabaly
-  - epcteri
-  - epcteris
-  - ierevce
-  - ierevced
-  - rnetec
-  - trfelce
-  - sargdeing
-  - sargde,
-  - eiuemrrdbs
-  - ireyiallbit
-  - nriainmge
-  - esdieerm
-  - meermber
-  - Meermber
-  - 'Meermber:'
-  - rednmi
-  - Rednmi
-  - Rednmier
-  - REDNMIER,
-  - 'REDNMIER:'
-  - rednmis
-  - neredr
-  - rtne
-  - Rtne
-  - rtneal
-  - epridel
-  - epryl
-  - EPRYL
-  - epryl.
-  - sapireervnetet
-  - eirqduer
-  - carhesre
-  - ovrrisere
-  - ntsidrese
-  - ntsidrese.
-  - psecter
-  - rlnsiypeotbsi
-  - estr
-  - estring
-  - lsetur
-  - lsetured
-  - lseturs
-  - lseturs.
-  - enurtr
-  - enurtr,
-  - enurtred
-  - rhiadrc
-  - 
-  - DAOR
-  - Daor.
-  - kcro
-  - oelr
-  - romo
-  - romo.
-  - romomama
-  - nru
-  - asfe
-  - ty
-  - irittaussga
-  - isad
-  - isad,
-  - ayarls
-  - 'ayarls:'
-  - tssaifide
-  - ydutrsa
-  - asy
-  - dacrse
-  - lhuceesd.
-  - taes.
-  - 
-  - osdenc
-  - 'erscatery '
-  - ese
-  - eseing
-  - esem
-  - esems
-  - ndes
-  - ndesing
-  - ntes
-  - 'ntes:'
-  - cenneets
-  - eseren
-  - sivecer.
-  - sivecers
-  - isnoess
-  - ets
-  - etstling
-  - serleva
-  - lalsh
-  - emsah
-  - hares
-  - hse
-  - hocksed
-  - stroh
-  - wosh
-  - wosh.
-  - woshed
-  - woshn
-  - woshs
-  - cisk
-  - ciskness
-  - eisd,
-  - nitsgcianfi
-  - psyilm
-  - ecisn
-  - Ecisn
-  - nslcyieer
-  - ictkeslap
-  - slliks.
-  - pesle
-  - pesle.
-  - tyihglls
-  - lsonewade
-  - lsonewade
-  - lsonewade!
-  - lsonewade.
-  - allms
-  - allms-sacle
-  - soohtm
-  - os
-  - Os
-  - OS
-  - iiczeosla
-  - iiczeosla.
-  - OIYSCTE,
-  - dlos
-  - esmo
-  - Esmo
-  - esmoeno
-  - esmotinhg
-  - esmowaht
-  - esmowehre
-  - oons
-  - oons!
-  - orrys
-  - dnsou
-  - dnsouing
-  - dnsous
-  - sureoc
-  - casep
-  - cpeifciseiily
-  - cpeifcised
-  - pecatstecular
-  - pecatste
-  - pecatsting
-  - eksonp
-  - ospstr
-  - fafts
-  - stdadran
-  - ttsra
-  - ttsra
-  - asyt
-  - eemsdet
-  - cskit
-  - sillt
-  - giisrrnt
-  - otmsr
-  - ertgnas
-  - ttrese
-  - ttrese,
-  - ssrset
-  - ssrseted
-  - ssrsetful
-  - tsghnrtiec
-  - nsirkigt
-  - ivtrsse
-  - tgrons
-  - stuiod
-  - tbjscue
-  - bismut
-  - uarstenenrab
-  - awubsy
-  - ceeseducd
-  - ceesduc
-  - cush
-  - itosengugs
-  - segugs,
-  - smu
-  - Smu
-  - uotrspp
-  - esupsop
-  - erus
-  - riersspu
-  - 
-  - srewteathe,
-  - eiwtees!
-  - keat,
-  - keating
-  - tlka
-  - talked
-  - etaalbx
-  - hcniagte
-  - etam
-  - etam's
-  - lhonogseceti
-  - Lhonogseceti
-  - lhonogseceti!
-  - lhonogseceti,
-  - lhonogseceti.
-  - lhonogseceti'
-  - lhonogecet
-  - LARMTGEE
-  - larmtgees
-  - etll
-  - tannet
-  - cnenyted
-  - retm
-  - retminate
-  - retmination
-  - retms
-  - Retms
-  - seatl
-  - nteitgs
-  - 
-  - khtna
-  - khtna
-  - ahtt
-  - Ahtt
-  - AHTT
-  - ahtt!
-  - ahtt.
-  - hte
-  - Hte
-  - HTE
-  - rihte
-  - tmeh
-  - eerth
-  - Eerth
-  - heset
-  - Heset
-  - yeht
-  - Yeht
-  - gihtn
-  - gihtns
-  - ikhtn
-  - ikhtning
-  - ihtrty
-  - hist
-  - Hist
-  - HIST
-  - 'hist:'
-  - ohset
-  - Ohset
-  - htgthuo
-  - snudhoat
-  - tohurgh
-  - tohurgh.
-  - tohurghotu
-  - uhts
-  - ettcik
-  - itll
-  - meti
-  - meti.
-  - meti?
-  - metis
-  - ernkeitr's
-  - 'ernkiting '
-  - 'lteti:'
-  - ot
-  - Ot
-  - OT
-  - atydo
-  - ehrgetto
-  - tlod
-  - rmworoot
-  - higtont.
-  - oot
-  - ootk
-  - orstadw
-  - krcta
   - 
   - 
-  - 'oiaansnrctt:'
-  - praotnstr
-  - praotnstrtation
-  - etavrl
-  - etavrlling
-  - rtedi
-  - rtebulo
-  - retu
-  - rtuly
-  - rty
-  - rtying
-  - tunlsen
-  - tunlsen,
-  - TOW
-  - ndure
-  - nduregorund
-  - ndureeanth
-  - nduredanst
-  - nduredoost,
-  - ndurekaet
-  - nudearh
-  - iiyunsetrv
-  - sluens
-  - nleulw,
-  - pi
-  - pi.
-  - piucomng
-  - piest
-  - pi-ot-tead
-  - sy
-  - sy.
-  - sye
-  - Sye
-  - sying
-  - sying.
-  - alyusul
-  - ioaantcv
-  - RAV
-  - sroavui
-  - UEVA
-  - 'evra '
-  - yrve
-  - Yrve
-  - iva
-  - niivc,
-  - ivist,
-  - ivisted
-  - gaew
-  - wiat
-  - lwak
-  - natw
-  - natwed
-  - luobrntaw
-  - aws
-  - aws.
-  - wchta
-  - ayw
-  - ayw,
-  - wr
-  - Wr
-  - wr,
-  - wr'll
-  - eekw
-  - eekw.
-  - eekwned.
-  - eekwly
-  - eekws
-  - woecmel
-  - Woecmel
-  - ewll
-  - ewll.
-  - ewll-nkowne
-  - ewer
-  - htaw
-  - nehw
-  - Nehw
-  - rewhe
-  - ehhetrw
-  - cwhhi
-  - lehwi
-  - ohw
-  - OHWM
-  - hwy
-  - iwll
-  - iwll
-  - 'Iwll '
-  - wshi
-  - musi
-  - Musi
-  - fehobits
-  - paturom
-  - paturon
-  - AMIWILIES
-  - bipeni
-  - likteg
-  - nepiri
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - 
+  - nagn
+  - 
+  - 
+  - 
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - nagon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - korw
   - korw!
   - korw,
@@ -31514,13 +31509,12 @@ MonoBehaviour:
   - korws
   - apa-xen
   - unayied
-  - 'Unaye '
+  - 'unaye '
   - sowre
-  - sowre
-  - 'dolih '
+  - sowre,
   - esiceg
   - regar
-  - regar
+  - Regar
   - regaran
   - sekoye
   - lemac
@@ -31533,13 +31527,13 @@ MonoBehaviour:
   - ali,
   - ali.
   - alip
-  - alip
+  - Alip
   - 'alipay '
   - alipay!
   - alipay,
   - alipay.
   - Nele
-  - Nele
+  - Nele,
   autoGibTerms: []
   Translated: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   gibberishText: []
