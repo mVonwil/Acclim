@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using XboxCtrlrInput;
 
 public class momLetterThree : MonoBehaviour
 {
@@ -34,20 +35,20 @@ public class momLetterThree : MonoBehaviour
 
     void UpdateText()
     {
-        text1.text = gibMan.gibberishText[79];
-        text2.text = gibMan.gibberishText[80];
-        text3.text = gibMan.gibberishText[81];
-        text4.text = gibMan.gibberishText[82];
-        text5.text = gibMan.gibberishText[83];
-        text6.text = gibMan.gibberishText[84];
-        text7.text = gibMan.gibberishText[85];
+        text1.text = gibMan.englishText[79];
+        text2.text = gibMan.englishText[80];
+        text3.text = gibMan.englishText[81];
+        text4.text = gibMan.englishText[82];
+        text5.text = gibMan.englishText[83];
+        text6.text = gibMan.englishText[84];
+        text7.text = gibMan.englishText[85];
 
     }
 
     void MoveToStorage()
     {
         bool interCheck = objInt.anim.GetBool("Interact");
-        if (interCheck == true && Input.GetMouseButtonDown(0) && objInt.isTargeted == true)
+		if (interCheck == true && XCI.GetButtonDown(XboxButton.RightBumper) && objInt.isTargeted == true)
         {
             Debug.Log("Moving");
             GetComponent<Animator>().enabled = false;

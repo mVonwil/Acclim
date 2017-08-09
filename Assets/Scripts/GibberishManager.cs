@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using System.IO;
+using System.IO;
 
 public class GibberishManager : MonoBehaviour {
 
@@ -52,7 +52,7 @@ public class GibberishManager : MonoBehaviour {
 
 		GenerateText ();
 
-		//ExportTerms ();
+		ExportTerms ();
 
     }
 	
@@ -94,8 +94,8 @@ public class GibberishManager : MonoBehaviour {
 		}
 	}
 
-		void RandomTranslate(){
-		for (int b = 0; b < 20; b++) {
+	public void RandomTranslate(){
+		for (int b = 0; b < 250; b++) {
 			int boolClick = Random.Range (0, Translated.Count);
 			if (Translated [boolClick] == true) {
 				b--;
@@ -104,13 +104,13 @@ public class GibberishManager : MonoBehaviour {
 				Translated [boolClick] = true;
 		}
 	}
-	/*
+
 	void ExportTerms (){
-		StreamWriter terms = new StreamWriter (@"C:\terms.txt");
-		for (int c = 0; c < 1556; c++) {
+		StreamWriter terms = new StreamWriter (@"D:\terms.txt");
+		for (int c = 0; c < 1553; c++) {
 			terms.WriteLine ("Element " + c + ":" + uniqueTerms [c]);
 		}
 		terms.Close ();
 	}
-	*/
+
 }

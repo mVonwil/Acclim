@@ -5,11 +5,15 @@ using UnityEngine;
 public class FadeTransition : MonoBehaviour {
 
 	public Animator anim;
+	public LetterManager letMan;
+
+	public GameObject player;
 
 	public CanvasGroup fadeImage;
 
 	public float fadeDur = 100;
-	public float timer;
+
+	public bool runOnce;
 
 	// Use this for initialization
 	void Start () {
@@ -22,41 +26,27 @@ public class FadeTransition : MonoBehaviour {
 	}
 
 	void Fade(){
-		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Fade Transition") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime == 1)
-			anim.SetBool("Fade", true);
-		if (anim.GetBool ("Interact") == true) {
-			FadeIn ();
-			if (fadeImage.alpha >= 1)
+		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("Fade Transition")) {
+			fadeImage.alpha += (Time.deltaTime / fadeDur);
+			if (fadeImage.alpha >= 1 && runOnce == true) {
 				anim.SetBool ("Interact", false);
+				Debug.Log("adding Letters");
+				letMan.letterSet += 1;
+				Debug.Log(letMan.letterSet);
+				letMan.Translate ();
+				RotatePlayer ();
+				runOnce = false;
+			}
 		}
-		if (anim.GetBool ("Interact") == false && timer >= 2)
-			FadeOut ();
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName ("New State")) {
+			fadeImage.alpha -= (Time.deltaTime / fadeDur);
+			runOnce = true;
+		}
 	}
 
-	void FadeIn(){
-		fadeImage.alpha += (Time.deltaTime / fadeDur);
-		timer += Time.deltaTime;
+	void RotatePlayer(){
+		Quaternion playerTrans = player.transform.rotation;
+		playerTrans.y = 0;
+		player.transform.rotation = new Quaternion(player.transform.rotation.x, playerTrans.y, player.transform.rotation.z, player.transform.rotation.w);
 	}
-
-	void FadeOut(){
-		//fadeImage.alpha = 1;
-		fadeImage.alpha -=  (Time.deltaTime / fadeDur);
-		anim.SetBool ("Fade", false);
-		timer = 0;
-	}
-
-	//void Fade(){
-	//	if (anim.GetBool ("Interact") == true) {
-	//		if (fadeImage.alpha == 0)
-	//			fadeImage.alpha += Time.deltaTime;
-	//		else
-	//			fadeImage.alpha = 1;
-	//	} else {
-	//		if (fadeImage.alpha != 0)
-	//			fadeImage.alpha -= Time.deltaTime;
-	//		else
-	//			fadeImage.alpha = 0;
-	//	}
-	//}
-
 }
