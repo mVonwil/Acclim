@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using XboxCtrlrInput;
 
 public class momLetterSeven : MonoBehaviour
 {
@@ -38,14 +39,14 @@ public class momLetterSeven : MonoBehaviour
 
     void UpdateText()
     {
-        text1.text = gibMan.gibberishText[149];
-        text2.text = gibMan.gibberishText[150];
-        text3.text = gibMan.gibberishText[151];
-        text4.text = gibMan.gibberishText[152];
-        text5.text = gibMan.gibberishText[153];
-        text6.text = gibMan.gibberishText[154];
-        text7.text = gibMan.gibberishText[155];
-        text8.text = gibMan.gibberishText[156];
+        text1.text = gibMan.englishText[149];
+        text2.text = gibMan.englishText[150];
+        text3.text = gibMan.englishText[151];
+        text4.text = gibMan.englishText[152];
+        text5.text = gibMan.englishText[153];
+        text6.text = gibMan.englishText[154];
+        text7.text = gibMan.englishText[155];
+        text8.text = gibMan.englishText[156];
 
 
 
@@ -55,7 +56,7 @@ public class momLetterSeven : MonoBehaviour
     void MoveToStorage()
     {
         bool interCheck = objInt.anim.GetBool("Interact");
-        if (interCheck == true && Input.GetMouseButtonDown(0) && objInt.isTargeted == true)
+		if (interCheck == true && XCI.GetButtonDown(XboxButton.RightBumper) && objInt.isTargeted == true)
         {
             Debug.Log("Moving");
             GetComponent<Animator>().enabled = false;

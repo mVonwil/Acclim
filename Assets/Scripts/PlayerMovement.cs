@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		intMan = GetComponent<InteractManager> ();
-		pauseMan = GameObject.FindGameObjectWithTag ("PauseMenu").GetComponent<UIManager> ();
+		//pauseMan = GameObject.FindGameObjectWithTag ("PauseMenu").GetComponent<UIManager> ();
 		Cursor.visible = false;
 	}
 	
@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour {
 		PlayerMove ();
 		PlayerLook ();
 		Buttons ();
+		BugTest ();
 	}
 
 	void PlayerMove(){
@@ -66,8 +67,8 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (addLookVert < -85)
 			addLookVert = -85;
-		else if (addLookVert > 34)
-			addLookVert = 34;
+		else if (addLookVert > 45)
+			addLookVert = 45;
 
 		transform.eulerAngles = new Vector3 (addLookVert, addLookHori, 0);
 		
@@ -89,5 +90,14 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		if (XCI.GetButtonDown (XboxButton.Start) && XCI.GetButtonDown (XboxButton.Back))
 			Application.Quit ();
+	}
+
+	void BugTest(){
+		if(XCI.GetButton(XboxButton.X)){
+			transform.position += Vector3.up;
+		}
+		if (XCI.GetButton (XboxButton.B)) {
+			transform.position -= Vector3.up;
+		}
 	}
 }
