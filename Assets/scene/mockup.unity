@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.014272037, g: 0.006544047, b: 0.0014980278, a: 1}
+  m_IndirectSpecularColor: {r: 0.0142720835, g: 0.006544097, b: 0.0014980617, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -29756,17 +29756,9 @@ MonoBehaviour:
   - 'There is the Anvil Reservoir Garden, a truly beautiful place. Very quiet and
     serene, I am sure you will enjoy the beauty of nature. I have gone to the garden
     many times myself, whether it is to just enjoy a walk or simply read a book. '
-  - If you need any research done, we have the famous National Library. The library
-    is world-class and boasts as a research center for people in various fields. I
-    visited the library numerous times for research or keep up-to-date on the latest
-    medical advances, as the medical field is ever-changing. It has a lovely collection
-    of fictional novels as well. Although I am sure you been here before for the language
-    lessons.
-  - On the entertainment side, SloeWaden has a circus permanently based here. It is
-    not far off from Alderdenn Street actually, about a thirty minute walk from here.
-    The shows are usually sold out, so it is best to book a ticket in advanced to
-    ensure you can get a seat. Perhaps we could watch one of the circus performances
-    together some time?
+  - 'On the entertainment side, SloeWaden has a circus permanently based here. It
+    is not far off from Alderdenn Street actually, about a thirty minute walk from
+    here. Perhaps we could watch one of the circus performances together some time? '
   - My suggestion is when you have the chance, to get out and explore the city. There
     is so much to explore and experience! If you like, I can accompany you and show
     you around some of the local attractions as well
@@ -30036,8 +30028,8 @@ MonoBehaviour:
   - 27th
   - 28th
   - 3
-  - 3. Kahalit / Herun
-  - 4. Repar
+  - 3. Repar
+  - 4. Kahalit / Herun
   - 4:30
   - 4pm
   - 4th
@@ -30081,8 +30073,6 @@ MonoBehaviour:
   - isutsed
   - uvih
   - NAKMO
-  - toged
-  - toges,
   - vonenog
   - remay
   - metas
@@ -30095,7 +30085,7 @@ MonoBehaviour:
   - Blurple.
   - dah
   - va
-  - dipoge
+  - dipoge,
   - Eendalr
   - nem
   - Nem
@@ -30127,7 +30117,7 @@ MonoBehaviour:
   - maste
   - snughlin
   - supam
-  - vurpac
+  - vurpac!
   - Alipr
   - Alipr,
   - ro
@@ -30138,7 +30128,6 @@ MonoBehaviour:
   - secries
   - yoodt
   - Yoodt
-  - yoodt.
   - yoodt.
   - yoodt?
   - yoodts
@@ -30208,15 +30197,13 @@ MonoBehaviour:
   - thra.
   - thra?
   - kuai
-  - yico.
-  - kilir
+  - kilir.
+  - vievc
   - 'sakeley '
   - sakeley,
   - sakelies
   - ludavan
-  - tecad
   - sunob
-  - fiecey
   - fiecey.
   - miaha
   - odns
@@ -30259,11 +30246,10 @@ MonoBehaviour:
   - hulolos.
   - ratutey.
   - ratutey?
-  - vupolen
   - Vupolen
+  - vupoled
   - alatago
   - fufedit
-  - oyohemig
   - sepeboz
   - sepeboz,
   - robepa
@@ -30290,7 +30276,6 @@ MonoBehaviour:
   - nargels
   - loteni
   - snorkacks
-  - unef
   - masi
   - MASI
   - masis
@@ -30418,7 +30403,6 @@ MonoBehaviour:
   - seod,
   - Reptims)
   - enod
-  - enod,
   - rood,
   - roods
   - oubtd
@@ -30458,7 +30442,7 @@ MonoBehaviour:
   - eolmpyed
   - eolmpyee
   - Eolmpyee
-  - Eolmpyee.
+  - eolmpyee.
   - eolmpyement
   - Eolmpyement
   - EOLMPYEMENT
@@ -30494,7 +30478,6 @@ MonoBehaviour:
   - teven!
   - teven.
   - tevens
-  - nihger-gebcav.
   - eryve
   - Eryve
   - eryvetihng
@@ -30527,7 +30510,6 @@ MonoBehaviour:
   - miyafl
   - miyafl!
   - miyafl,
-  - fuamso
   - afr
   - afr.
   - sepa-cadtf
@@ -30541,10 +30523,7 @@ MonoBehaviour:
   - eefs
   - lelofew
   - wef
-  - iftocialn
   - digdnfgl
-  - fedli
-  - fedlis.
   - ainlf
   - dinf
   - dinfign
@@ -30648,7 +30627,7 @@ MonoBehaviour:
   - raehd
   - raehing
   - Raehing
-  - elohl
+  - Elohl
   - lpeh
   - lpehed
   - lpehing
@@ -30692,7 +30671,7 @@ MonoBehaviour:
   - ldruhe,
   - ldruhes
   - N
-  - Aln
+  - Nai
   - fi
   - Fi
   - rnoieg
@@ -30762,7 +30741,7 @@ MonoBehaviour:
   - Nece
   - neceing
   - neces
-  - eyk
+  - eyk!
   - oknw
   - oknw,
   - oknwing
@@ -30793,7 +30772,6 @@ MonoBehaviour:
   - lglelya
   - olesssn
   - olesssn!
-  - olesssn.
   - lte
   - tetelr
   - tetelr,
@@ -30803,7 +30781,6 @@ MonoBehaviour:
   - eelvl
   - Esilw
   - Lyaethlnl
-  - rarbily
   - Rarbily.
   - elfi
   - kile
@@ -30830,12 +30807,11 @@ MonoBehaviour:
   - oevl
   - Oevl,
   - oevled
-  - oevlly
   - Klucyil
   - Risuoxuul
   - ihnmeycar
   - ihnmeycars
-  - 'dmea '
+  - dmea
   - GMIAC
   - imaginl
   - atninami
@@ -30844,13 +30820,13 @@ MonoBehaviour:
   - mekas
   - mekaing
   - maagned
-  - maagner
+  - maagner,
   - Maagner.
   - ranmne
   - mayn
   - Mayn
   - MAYN
-  - Merka
+  - MERKA
   - Aminvr
   - essmaiv
   - esatmr
@@ -30866,7 +30842,6 @@ MonoBehaviour:
   - naems.
   - naemt
   - ciaalhmenc
-  - mdicael
   - tmee
   - tmeeing
   - tmeeing,
@@ -30958,10 +30933,8 @@ MonoBehaviour:
   - Otning.
   - ctione
   - ctioned
-  - lensov
   - onw
   - onw.
-  - enumorus
   - fd
   - Fd
   - FD
@@ -31029,7 +31002,7 @@ MonoBehaviour:
   - tpar
   - cpeiatpirta,
   - trypa
-  - Spak,
+  - Spak.
   - asps.
   - yvpasilse
   - apst
@@ -31166,7 +31139,6 @@ MonoBehaviour:
   - epryl.
   - sapireervnetet
   - eirqduer
-  - carhesre
   - Ovrrisere
   - ntsidrese
   - ntsidrese.
@@ -31203,7 +31175,6 @@ MonoBehaviour:
   - asy
   - dacrse
   - lhuceesd.
-  - taes.
   - Ces.
   - osdenc
   - 'Erscatery '
@@ -31233,7 +31204,6 @@ MonoBehaviour:
   - wosh.
   - woshed
   - woshn
-  - woshs
   - cisk,
   - ciskness
   - eisd,
@@ -31259,7 +31229,6 @@ MonoBehaviour:
   - iiczeosla
   - iiczeosla.
   - OIYSCTE,
-  - dlos
   - esmo
   - Esmo
   - esmoeno
@@ -31323,7 +31292,7 @@ MonoBehaviour:
   - keat
   - keating
   - tlka,
-  - talked
+  - tlkaed
   - etaalbx
   - hcniagte
   - etam
@@ -31383,7 +31352,6 @@ MonoBehaviour:
   - tohurgh.
   - tohurghotu
   - Uhts
-  - ettcik
   - itll
   - meti
   - meti.
@@ -31432,25 +31400,22 @@ MonoBehaviour:
   - pi'.
   - piucomng
   - piest
-  - pi-ot-tead
   - sy
   - sy.
   - sye
   - Sye
   - sying
   - sying.
-  - alyusul
   - ioaantcv
   - RAV
   - sroavui
   - UEVA
-  - 'Evra '
+  - Evra
   - yrve
   - Yrve
   - iva
   - Niivc,
   - ivist,
-  - ivisted
   - gaew
   - wiat
   - lwak
@@ -31507,11 +31472,11 @@ MonoBehaviour:
   - korwed
   - korwing
   - korws
-  - apa-xen
   - unayied
-  - 'unaye '
+  - unaye
   - sowre
   - sowre,
+  - torwh
   - esiceg
   - regar
   - Regar
@@ -31520,7 +31485,7 @@ MonoBehaviour:
   - lemac
   - Lemac.
   - Sul,
-  - ihi,
+  - 'ihi, '
   - ali
   - Ali
   - ali!
@@ -31533,7 +31498,7 @@ MonoBehaviour:
   - alipay,
   - alipay.
   - Nele
-  - Nele,
+  - 'Nele, '
   autoGibTerms: []
   Translated: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   gibberishText: []
