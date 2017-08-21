@@ -48,7 +48,7 @@ public class momLetterEight : MonoBehaviour
         text5.text = gibMan.englishText[217];
         text6.text = gibMan.englishText[218];
 		text7.text = gibMan.englishText[219];
-        text7.text = gibMan.englishText[220];
+        //text7.text = gibMan.englishText[220];
 
 
     }

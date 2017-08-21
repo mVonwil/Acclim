@@ -70,7 +70,7 @@ public class GibberishManager : MonoBehaviour {
 			string[] engWords = engText.Split (' ');
 			foreach (string word in engWords) {
 				int wordLocation = uniqueTerms.IndexOf (word);
-				string wordSwap = autoGibTerms [wordLocation];
+				string wordSwap = gibTerms [wordLocation];
 				if (Translated [wordLocation] == false)
 					gibText += " <color=#FF0000FF>" + wordSwap + "</color>";
 				else

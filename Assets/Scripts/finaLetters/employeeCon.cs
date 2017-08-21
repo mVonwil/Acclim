@@ -49,7 +49,7 @@ public class employeeCon : MonoBehaviour
         text3.text = gibMan.gibberishText[34];
         text4.text = gibMan.gibberishText[35];
         text5.text = gibMan.gibberishText[36];
-        text6.text = gibMan.gibberishText[37];
+        text6.text = gibMan.gibberishText[37]; //edited to remove "Dear Harriet Danvers,"
         text7.text = gibMan.gibberishText[38];
         text8.text = gibMan.gibberishText[39];
         text9.text = gibMan.gibberishText[40];
