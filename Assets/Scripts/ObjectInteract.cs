@@ -21,20 +21,21 @@ public class ObjectInteract : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		ChangeColor ();
+		//ChangeColor ();
 		RunInteract ();
 		if (intMan.obj == this.gameObject)
 			isTargeted = true;
 		else
 			isTargeted = false;;
 	}
-
+	/*
 	public void ChangeColor(){
 		if (isTargeted == true && intMan.rayHit.transform.gameObject == this.gameObject)
 			obj.GetComponent<Renderer> ().material.color = Color.green;
 		else
 			obj.GetComponent<Renderer> ().material.color = originalColor;
 	}
+	*/
 
 	void RunInteract(){
 		if (isTargeted == true && buttonPress == true && anim.GetBool ("Interact") == false) {

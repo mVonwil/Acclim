@@ -15,6 +15,8 @@ public class GibberishManager : MonoBehaviour {
 
 	public string gibberish;
 
+	public int numWordsTrans;
+
 	// Use this for initialization
 	void Start () {
 		List<string> tempEng = new List<string> (); //Temp list of english strings
@@ -62,7 +64,7 @@ public class GibberishManager : MonoBehaviour {
 		RefreshText ();
 	}
 
-	void GenerateText(){
+	public void GenerateText(){
 		for (int a = 0; a < englishText.Count; a++){
 			string engText = englishText[a];
 			string gibText = "";
@@ -95,13 +97,17 @@ public class GibberishManager : MonoBehaviour {
 	}
 
 	public void RandomTranslate(){
-		for (int b = 0; b < 250; b++) {
+		for (int b = 0; b < 350; b++) {
 			int boolClick = Random.Range (0, Translated.Count);
 			if (Translated [boolClick] == true) {
 				b--;
 				return;
-			} else
+			} else if (numWordsTrans == Translated.Count)
+				break;
+			else {
 				Translated [boolClick] = true;
+				numWordsTrans++;
+			}
 		}
 	}
 

@@ -24,19 +24,19 @@ public class LightSwitch : MonoBehaviour {
 
 	void LightToggle(){
 		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("Lights On")) {
-			light1.enabled = true;
-			lightOrb1.GetComponent<Renderer> ().material.EnableKeyword ("_EMISSION");
-			light2.enabled = true;
-			lightOrb2.GetComponent<Renderer> ().material.EnableKeyword ("_EMISSION");
-			light3.enabled = true;
-			lightOrb3.GetComponent<Renderer> ().material.EnableKeyword ("_EMISSION");
-		} else {
 			light1.enabled = false;
 			lightOrb1.GetComponent<Renderer> ().material.DisableKeyword ("_EMISSION");
 			light2.enabled = false;
 			lightOrb2.GetComponent<Renderer> ().material.DisableKeyword ("_EMISSION");
 			light3.enabled = false;
 			lightOrb3.GetComponent<Renderer> ().material.DisableKeyword ("_EMISSION");
+		} else {
+			light1.enabled = true;
+			lightOrb1.GetComponent<Renderer> ().material.EnableKeyword ("_EMISSION");
+			light2.enabled = true;
+			lightOrb2.GetComponent<Renderer> ().material.EnableKeyword ("_EMISSION");
+			light3.enabled = true;
+			lightOrb3.GetComponent<Renderer> ().material.EnableKeyword ("_EMISSION");
 		}
 	}
 }

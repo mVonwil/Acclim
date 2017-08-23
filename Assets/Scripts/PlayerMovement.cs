@@ -10,6 +10,10 @@ public class PlayerMovement : MonoBehaviour {
 
 	public GameObject body;
 
+	public Vector3 upDown;
+	public float yMax;
+	public float yMin;
+
 	public float moveSpeed = 1;
 	public float lookSpeed = 1;
 
@@ -28,11 +32,16 @@ public class PlayerMovement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
+		RightBumper ();
+		InvertY ();
+		QuitButton ();
+	}
+
+	void FixedUpdate(){
+		BugTest ();
 		PlayerMove ();
 		PlayerLook ();
-		Buttons ();
-		BugTest ();
 	}
 
 	void PlayerMove(){
@@ -75,29 +84,43 @@ public class PlayerMovement : MonoBehaviour {
 		body.transform.eulerAngles = new Vector3 (0, addLookHori, 0);
 	}
 
-	void Buttons(){
-		if (XCI.GetButtonDown(XboxButton.RightBumper))
+	void RightBumper(){
+		if (XCI.GetButtonDown (XboxButton.RightBumper))
 			intMan.buttonPress = true;
 		else
 			intMan.buttonPress = false;
+	}
 		//if (XCI.GetButtonDown (XboxButton.Start))
 			//pauseMan.TogglePauseMenu ();
+	void InvertY(){
 		if (XCI.GetButtonDown (XboxButton.Y)) {
 			if (invertY == false)
 				invertY = true;
 			else
 				invertY = false;
 		}
-		if (XCI.GetButtonDown (XboxButton.Start) && XCI.GetButtonDown (XboxButton.Back))
+	}
+
+	void QuitButton(){
+		if (XCI.GetButtonDown (XboxButton.Back))
 			Application.Quit ();
 	}
 
 	void BugTest(){
-		if(XCI.GetButton(XboxButton.X)){
-			transform.position += Vector3.up;
+		upDown = transform.position;
+		if (XCI.GetButton (XboxButton.X)) {
+			if (upDown.y < yMax)
+				upDown += (Vector3.up / 50);
+			else
+				upDown.y = yMax;
+			
 		}
 		if (XCI.GetButton (XboxButton.B)) {
-			transform.position -= Vector3.up;
+			if (upDown.y > yMin)
+				upDown -= (Vector3.up / 50);
+			else
+				upDown.y = yMin;
 		}
+		transform.position = upDown;
 	}
 }
