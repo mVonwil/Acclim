@@ -22,7 +22,8 @@ public class FadeTransition : MonoBehaviour {
 
 	public float fadeDur = 100;
 
-	public bool runOnce;
+	public bool runOnce = true;
+	public bool finalRunOnce;
 	public bool endGame = false;
 
 	// Use this for initialization
@@ -56,37 +57,37 @@ public class FadeTransition : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Fade ();
-	}
-
-	void Fade(){
 		if (letMan.letterSet < 10) {
 			dayText.text = days [letMan.letterSet - 1];
 		} else if (letMan.letterSet > 10) {
 			dayText.text = ("Thank you for playing.");
 			endGame = true;
 		}
-		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("Fade Transition")) {
-			fadeImage.alpha += (Time.deltaTime / fadeDur);
-			if (fadeImage.alpha >= 1 && runOnce == true) {
-				if (endGame == true)
-					SceneManager.LoadScene(0);
-				else {
-					anim.SetBool ("Interact", false);
-					Debug.Log ("adding Letters");
-					letMan.letterSet += 1;
-					Debug.Log (letMan.letterSet);
-					letMan.Translate ();
-					//sunRot = new Vector3(timeOfDay[Random.Range(0, 9)], 0, 0);
-					//sun.transform.eulerAngles = sunRot;
-					RotatePlayer ();
-					runOnce = false;
-				}
-			}
-		} else if (anim.GetCurrentAnimatorStateInfo (0).IsName ("New State")) {
-			fadeImage.alpha -= (Time.deltaTime / fadeDur);
-			runOnce = true;
 	}
-}
+
+	void Fade(){
+			if (anim.GetCurrentAnimatorStateInfo (0).IsName ("Fade Transition")) {
+				fadeImage.alpha += (Time.deltaTime / fadeDur);
+				if (fadeImage.alpha >= 1 && runOnce == true) {
+					if (endGame == true) {
+						SceneManager.LoadScene (0);
+				}else if (anim.GetBool("Interact"))  {
+						anim.SetBool ("Interact", false);
+						Debug.Log ("adding Letters");
+						letMan.letterSet += 1;
+						Debug.Log (letMan.letterSet);
+						letMan.Translate ();
+						RotatePlayer ();
+						runOnce = false;
+					finalRunOnce = false;
+					}
+				}
+			} else if (anim.GetCurrentAnimatorStateInfo (0).IsName ("New State")) {
+				fadeImage.alpha -= (Time.deltaTime / fadeDur);
+				runOnce = true;
+			}
+		//finalRunOnce = true;
+		}
 
 	void RotatePlayer(){
 		Quaternion playerTrans = player.transform.rotation;
