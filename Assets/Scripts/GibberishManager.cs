@@ -92,23 +92,26 @@ public class GibberishManager : MonoBehaviour {
 
 	void RefreshText(){
 		if (Input.GetKeyDown (KeyCode.Alpha1)) {
-			RandomTranslate ();
+			//RandomTranslate ();
 		}
 	}
-
+	/*
 	public void RandomTranslate(){
-		for (int b = 0; b < 350; b++) {
-			int boolClick = Random.Range (0, Translated.Count);
-			if (Translated [boolClick] == true) {
-				b--;
-				return;
-			} else if (numWordsTrans == Translated.Count)
-				break;
+		if (numWordsTrans < Translated.Count) {
+			for (int b = 0; b < 172; b++) {
+				int boolClick = Random.Range (0, Translated.Count - 1);
+				if (Translated [boolClick] == true) {
+					b--;
+					//return;
+				} //else if (numWordsTrans == Translated.Count)
+				//break;
 			else {
-				Translated [boolClick] = true;
-				numWordsTrans++;
+					Translated [boolClick] = true;
+					numWordsTrans++;
+				}
 			}
-		}
+		} else
+			return;
 	}
 
 	/*void ExportTerms (){

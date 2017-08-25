@@ -45,8 +45,10 @@ public class LetterManager : MonoBehaviour {
 		if (letterSet == 2) {
 			foreach (GameObject letter in Day2) {
 				letter.SetActive (true);
-				gibMan.RandomTranslate ();
+				//gibMan.RandomTranslate ();
 				AttemptLearning ();
+				for (int a = 0; a < 172; a++)
+					gibMan.Translated [a] = true;
 			}
 			foreach (GameObject misc in ObjectsDay2) {
 				misc.SetActive (true);
@@ -55,8 +57,10 @@ public class LetterManager : MonoBehaviour {
 		if (letterSet == 3) {
 			foreach (GameObject letter in Day5) {
 				letter.SetActive (true);
-				gibMan.RandomTranslate ();
+				//gibMan.RandomTranslate ();
 				AttemptLearning ();
+				for (int a = 172; a < 344; a++)
+					gibMan.Translated [a] = true;
 			}
 			foreach (GameObject misc in ObjectsDay5) {
 				misc.SetActive (true);
@@ -65,8 +69,10 @@ public class LetterManager : MonoBehaviour {
 		if (letterSet == 4) {
 			foreach (GameObject letter in Day6) {
 				letter.SetActive (true);
-				gibMan.RandomTranslate ();
+				//gibMan.RandomTranslate ();
 				AttemptLearning ();
+				for (int a = 344; a < 516; a++)
+					gibMan.Translated [a] = true;
 			}
 			foreach (GameObject misc in ObjectsDay6) {
 				misc.SetActive (true);
@@ -75,8 +81,10 @@ public class LetterManager : MonoBehaviour {
 		if (letterSet == 5) {
 			foreach (GameObject letter in Day7) {
 				letter.SetActive (true);
-				gibMan.RandomTranslate ();
+				//gibMan.RandomTranslate ();
 				AttemptLearning ();
+				for (int a = 516; a < 688; a++)
+					gibMan.Translated [a] = true;
 			}
 			foreach (GameObject misc in ObjectsDay7) {
 				misc.SetActive (true);
@@ -85,8 +93,10 @@ public class LetterManager : MonoBehaviour {
 		if (letterSet == 6) {
 			foreach (GameObject letter in Day15) {
 				letter.SetActive (true);
-				gibMan.RandomTranslate ();
+				//gibMan.RandomTranslate ();
 				AttemptLearning ();
+				for (int a = 688; a < 860; a++)
+					gibMan.Translated [a] = true;
 			}
 			foreach (GameObject misc in ObjectsDay15) {
 				misc.SetActive (true);
@@ -95,8 +105,10 @@ public class LetterManager : MonoBehaviour {
 		if (letterSet == 7) {
 			foreach (GameObject letter in Day16) {
 				letter.SetActive (true);
-				gibMan.RandomTranslate ();
+				//gibMan.RandomTranslate ();
 				AttemptLearning ();
+				for (int a = 860; a < 1032; a++)
+					gibMan.Translated [a] = true;
 			}
 			foreach (GameObject misc in ObjectsDay16) {
 				misc.SetActive (true);
@@ -105,8 +117,10 @@ public class LetterManager : MonoBehaviour {
 		if (letterSet == 8) {
 			foreach (GameObject letter in Day21) {
 				letter.SetActive (true);
-				gibMan.RandomTranslate ();
+				//gibMan.RandomTranslate ();
 				AttemptLearning ();
+				for (int a = 1032; a < 1204; a++)
+					gibMan.Translated [a] = true;
 			}
 			foreach (GameObject misc in ObjectsDay21) {
 				misc.SetActive (true);
@@ -115,8 +129,10 @@ public class LetterManager : MonoBehaviour {
 		if (letterSet == 9) {
 			foreach (GameObject letter in Day28) {
 				letter.SetActive (true);
-				gibMan.RandomTranslate ();
+				//gibMan.RandomTranslate ();
 				AttemptLearning ();
+				for (int a = 1204; a < 1556; a++)
+					gibMan.Translated [a] = true;
 			}
 			foreach (GameObject misc in ObjectsDay28) {
 				misc.SetActive (true);
