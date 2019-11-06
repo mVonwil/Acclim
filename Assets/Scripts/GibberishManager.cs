@@ -26,11 +26,10 @@ public class GibberishManager : MonoBehaviour {
 			tempEng.Add (msg);
 
 		foreach (string msg in tempEng) {
-			//string tempMsg = msg.Replace (".", ""); //Add a .Replace for each punctuation used
 			string[] words = msg.Split (' '); //Use String.Split to seperate the words and put them in an array
 			foreach (string word in words) { //For each word in each array, check for duplicates
 				if (!uniqueTerms.Contains (word)) { //If word is unique, add to list
-					uniqueTerms.Add (word); //bluffle - bluffel
+					uniqueTerms.Add (word); 
 					tempGib.Add (word);
 				}
 			}
@@ -54,8 +53,6 @@ public class GibberishManager : MonoBehaviour {
 
 		GenerateText ();
 
-	//	ExportTerms ();
-
     }
 	
 	// Update is called once per frame
@@ -68,7 +65,6 @@ public class GibberishManager : MonoBehaviour {
 		for (int a = 0; a < englishText.Count; a++){
 			string engText = englishText[a];
 			string gibText = "";
-			//string transText = engText.Replace (".", "");
 			string[] engWords = engText.Split (' ');
 			foreach (string word in engWords) {
 				int wordLocation = uniqueTerms.IndexOf (word);
@@ -84,6 +80,7 @@ public class GibberishManager : MonoBehaviour {
 	}
 
 	void AttemptLearning(){
+		//Test to see if system works
 		if (Input.GetKeyDown (KeyCode.R)) {
 			gibberishText.Clear ();
 			GenerateText ();
@@ -112,14 +109,6 @@ public class GibberishManager : MonoBehaviour {
 			}
 		} else
 			return;
-	}
-
-	/*void ExportTerms (){
-		StreamWriter terms = new StreamWriter (@"D:\terms.txt");
-		for (int c = 0; c < gibTerms.Count; c++) {
-			terms.WriteLine ("Element " + c + ":" + gibTerms [c]);
-		}
-		terms.Close ();
 	}
     */
 }
